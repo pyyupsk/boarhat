@@ -58,11 +58,3 @@ clean: ## Clean cache files
 	@find . -type d -name ".mypy_cache" -exec rm -rf {} + 2>/dev/null || true
 	@find . -type f -name "*.pyc" -delete
 	@echo "$(GREEN)✓ Cache cleaned!$(NC)"
-
-scrape-characters: ## Scrape character list
-	@echo "$(BLUE)Scraping character list...$(NC)"
-	@uv run boarhat character list
-
-scrape-all: ## Scrape all character details
-	@echo "$(BLUE)Scraping all character details...$(NC)"
-	@uv run boarhat character all

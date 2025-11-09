@@ -8,21 +8,25 @@ class Weapon:
     """Duet Night Abyss weapon data model."""
 
     name: str
+    element: str
     weapon_type: str
-    rarity: str = "Unknown"
+    attack_type: str
     image_url: str = ""
-    url: str = ""
-    stats: dict = field(default_factory=dict)
+    skill: str = ""
+    base_stats: dict = field(default_factory=dict)
+    attributes: dict = field(default_factory=dict)
 
     def to_dict(self) -> dict:
         """Convert to dictionary."""
         return {
             "name": self.name,
+            "element": self.element,
             "weapon_type": self.weapon_type,
-            "rarity": self.rarity,
+            "attack_type": self.attack_type,
             "image_url": self.image_url,
-            "url": self.url,
-            "stats": self.stats,
+            "skill": self.skill,
+            "base_stats": self.base_stats,
+            "attributes": self.attributes,
         }
 
     @classmethod
@@ -30,9 +34,11 @@ class Weapon:
         """Create from dictionary."""
         return cls(
             name=data["name"],
+            element=data.get("element", "Neutral"),
             weapon_type=data.get("weapon_type", "Unknown"),
-            rarity=data.get("rarity", "Unknown"),
+            attack_type=data.get("attack_type", "Unknown"),
             image_url=data.get("image_url", ""),
-            url=data.get("url", ""),
-            stats=data.get("stats", {}),
+            skill=data.get("skill", ""),
+            base_stats=data.get("base_stats", {}),
+            attributes=data.get("attributes", {}),
         )

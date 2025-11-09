@@ -6,7 +6,7 @@ import click
 from rich.console import Console
 from rich.table import Table
 
-from boarhat.scrapers import CharacterScraper
+from boarhat.scrapers import CharacterScraper, WeaponScraper
 from boarhat.scrapers.character_detail import CharacterDetailScraper
 
 console = Console()
@@ -203,6 +203,71 @@ def get(character_slug: str, output_dir: Path, no_cache: bool):
     console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
 
 
+@cli.group()
+def weapon():
+    """Weapon data commands."""
+    pass
+
+
+@weapon.command("list")
+@click.option(
+    "--source",
+    "-s",
+    default="https://boarhat.gg/games/duet-night-abyss/weapon/",
+    help="URL or file path to scrape",
+)
+@click.option(
+    "--output",
+    "-o",
+    "output_dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/processed"),
+    help="Output directory",
+)
+@click.option(
+    "--no-cache",
+    is_flag=True,
+    help="Force fetch from URL (ignore cache)",
+)
+def weapon_list(source: str, output_dir: Path, no_cache: bool):
+    """Scrape weapon list from boarhat.gg."""
+    cache_dir = Path("data/raw")
+
+    # Clear cache if requested
+    if no_cache and isinstance(source, str) and source.startswith("http"):
+        cache_file = cache_dir / "weapons.html"
+        if cache_file.exists():
+            cache_file.unlink()
+            console.print(f"[yellow]Cleared cache: {cache_file}[/yellow]")
+
+    scraper = WeaponScraper(source, output_dir, cache_dir)
+    data, output_path = scraper.run()
+
+    # Display summary
+    table = Table(title="Weapon Summary")
+    table.add_column("Attribute", style="cyan")
+    table.add_column("Value", style="green")
+
+    table.add_row("Total Weapons", str(len(data)))
+
+    # Count by weapon type
+    from collections import Counter
+
+    weapon_types = Counter(w.weapon_type for w in data)
+    table.add_row("Weapon Types", ", ".join(f"{k}: {v}" for k, v in weapon_types.most_common()))
+
+    # Count by element
+    elements = Counter(w.element for w in data)
+    table.add_row("Elements", ", ".join(f"{k}: {v}" for k, v in elements.most_common()))
+
+    # Count by attack type
+    attack_types = Counter(w.attack_type for w in data)
+    table.add_row("Attack Types", ", ".join(f"{k}: {v}" for k, v in attack_types.most_common()))
+
+    console.print(table)
+    console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
+
+
 @cli.command("list")
 def list_command():
     """List available scrapers."""
@@ -214,7 +279,7 @@ def list_command():
     table.add_row("character list", "List all characters", "✓ Available")
     table.add_row("character all", "Scrape all character details", "✓ Available")
     table.add_row("character get [name]", "Scrape specific character", "✓ Available")
-    table.add_row("weapons", "Scrape weapon data", "⚠ Coming soon")
+    table.add_row("weapon list", "Scrape weapon data", "✓ Available")
     table.add_row("geniemon", "Scrape geniemon data", "⚠ Coming soon")
     table.add_row("demon-wedge", "Scrape demon wedge data", "⚠ Coming soon")
 
