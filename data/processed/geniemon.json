@@ -1,0 +1,406 @@
+[
+  {
+    "name": "Anemelf",
+    "element": "Anemo",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/anemelf_v1.PNG",
+    "active_skill": "Increase [Resolve] by 6% for teammates within range for 12s. When the main character's HP percentage falls below 25%, instantly restores their HP by 10%.",
+    "cooldown": "[To Be Updated]",
+    "passive_skill": "Increases Anemo ATK for the main character and the Combat Partners by 2.4% and the stats provided by Anemo Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by 0.9%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon of legendary rarity, its blody gleams with the lustre of emerald. Long believed to exist only in bardic ballads and the dreams of minstrels."
+  },
+  {
+    "name": "Ballbee",
+    "element": "Lumino",
+    "geniemon_type": "Active",
+    "rarity": "4★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/ballbee_v1.PNG",
+    "active_skill": "Deals Lumino Damage equal to 585% of the main character's ATK to enemies within range and increases the Skill Damage taken by them by 3.6% for 10s.",
+    "cooldown": "20s",
+    "passive_skill": "Increases Lumino ATK for the main character and the Combat Partners by 1.2% and the stats provided by Demon Wedges prefixed with [Phoenix] by 0.5%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Radiant as a burning star, this Geniemon is known to light the way for weary travellers. Just don't stare at it too long - its periodic flashes can be blinding."
+  },
+  {
+    "name": "Bro Boxie",
+    "element": "Neutral",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/bro_boxie_v1.PNG",
+    "active_skill": "Deals damage equal to 1170% of the main character's ATK to surrounding enemies, and can directly destroy Special Destructibles covering chests. Detects 1 Geniemon and 1 chest within a 100-metre range, marking their locations for 30s.",
+    "cooldown": "30s",
+    "passive_skill": "EXP gained by defeating enemies +7.5%, with a 7.5% chance for bonus loot.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "An introverted, carrion-feeding Geniemon that indiscriminately hoards anything it can encompass, using some for sustenance while stashing others away as materials for its nest."
+  },
+  {
+    "name": "Bunniva",
+    "element": "Hydro",
+    "geniemon_type": "Active",
+    "rarity": "4★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/bunniva_v1.PNG",
+    "active_skill": "Increases ATK for the [Summons] of teammates within range by 9% for 10s.",
+    "cooldown": "20s",
+    "passive_skill": "Increases Hydro ATK for the main character and the Combat Partners by 1.2% and the stats provided by Demon Wedges prefixed with [Phoenix] by 0.5%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Squishy as pudding and cute as a button, the Frosted Bunny Geniemon was once a continental sensation - until a scholar from Aethyrie revealed that its adorable little 'eyes'... weren't eyes at all, but part of its internal anatomy. Let's just say it's been less popular."
+  },
+  {
+    "name": "Catizz",
+    "element": "Electro",
+    "geniemon_type": "Active",
+    "rarity": "4★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/catizz_v1.PNG",
+    "active_skill": "Increases the points of Ultra Shield for teammates within range by 225 and restores their Sanity by 9.",
+    "cooldown": "40s",
+    "passive_skill": "Increases Electro ATK for the main character and the Combat Partners by 1.2% and the stats provided by Demon Wedges prefixed with [Phoenix] by 0.5%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Always crackling with static, this poor Geniemon is often shunned by others. No one truly knows what it looks like - all you ever see are a pair of lonely eyes, peeking out from behind a tiny toy car."
+  },
+  {
+    "name": "Cubolt",
+    "element": "Electro",
+    "geniemon_type": "Active",
+    "rarity": "3★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/cubolt_v1.PNG",
+    "active_skill": "Grants teammates within range 120 points of Ultra Shield and randomly increases ATK by 9.4%, DEF by 13%, Skill Damage by 14.3%, or Skill Duration by 14.3% for 10s.",
+    "cooldown": "40s",
+    "passive_skill": "The main character and Combat Partners gain: Electro ATK +0.8%, Max HP +3%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Commonly found in highlands, Cubolts were once hunted for their highly conductive fur. So when encountering humans, they curl into a ball and roll away at incredible speed."
+  },
+  {
+    "name": "Dandemeow",
+    "element": "Anemo",
+    "geniemon_type": "Active",
+    "rarity": "4★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/dandemeow_v1.PNG",
+    "active_skill": "Heals teammates within range by 18% of the main character's Max HP and increases their DEF increase by 6% for 15s.",
+    "cooldown": "30s",
+    "passive_skill": "Increases Anemo ATK for the main character and the Combat Partners by 1.2% and the stats provided by Demon Wedges prefixed with [Phoenix] by 0.5%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Light as thistledown and never still ,this tiny, lively Geniemon floats endlessly form place to place, carried by a single seed  - forever chasing the end of a journey that doesn't exist."
+  },
+  {
+    "name": "Dripplet",
+    "element": "Hydro",
+    "geniemon_type": "Active",
+    "rarity": "3★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/dripplet_v1.PNG",
+    "active_skill": "Increases ATK for teammates within range by 7.5% for 12s.",
+    "cooldown": "20s",
+    "passive_skill": "The main character and Combat Partners gain: Hydro ATK +0.8%, Max HP +3%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Floating through the air, Dripplet, with an affinity to water, normally curls its translucent body, making it nearly invisible in sunlight. Only when it rains does it unfurl gracefully, blossoming like an ethereal flower in mid-air."
+  },
+  {
+    "name": "Electrelf",
+    "element": "Electro",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/electrelf_v1.PNG",
+    "active_skill": "Restores 15 points of Sanity for teammates within range and increases their Skill Damage by 10.5% for 12s.",
+    "cooldown": "[To Be Updated]",
+    "passive_skill": "Increases Electro ATK for the main character and the Combat Partners by 2.4% and the stats provided by Electro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by 0.9%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon of legendary rarity, its blody gleams with the lustre of amethyst. Long believed to exist only in bardic ballads and the dreams of minstrels."
+  },
+  {
+    "name": "Equinex",
+    "element": "Neutral",
+    "geniemon_type": "Active",
+    "rarity": "3★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/equinex_v1.PNG",
+    "active_skill": "Deals Umbro Damage equivalent to 468% of the main character's ATK to enemies within range, with an additional random attribute-based effect for 10s.",
+    "cooldown": "20s",
+    "passive_skill": "The main character and Combat Partners gain: Umbro ATK +0.8%, Max HP +3%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Often found near battlefields, ruins, or graveyards, this Geniemon feeds on the remains of the fallen. Its twin horns and grim habits have earned it a reputation as an ill omen across many regions."
+  },
+  {
+    "name": "Healing Drone",
+    "element": "Neutral",
+    "geniemon_type": "Inactive",
+    "rarity": "2★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/healing_drone.PNG",
+    "active_skill": "-",
+    "cooldown": "-",
+    "passive_skill": "-",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon that has mimicked the form of a Healing Drone. though the mechanism behind geniemon mimicry remain an enigma, this variant has fully adopted to life in the Aeolipile, evolving traits optimised for survival."
+  },
+  {
+    "name": "Hydrelf",
+    "element": "Hydro",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/hydrelf_v1.PNG",
+    "active_skill": "For each item summoned by the main character, increases damage dealt by teammates within range by 4% for 12s, up to maximum of 16.2%.",
+    "cooldown": "[To Be Updated]",
+    "passive_skill": "Increases Hydro ATK for the main character and the Combat Partners by 2.4% and the stats provided by Hydro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by 0.9%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon of legendary rarity, its blody gleams with the lustre of iolite. Long believed to exist only in bardic ballads and the dreams of minstrels."
+  },
+  {
+    "name": "Jellomon",
+    "element": "Neutral",
+    "geniemon_type": "Inactive",
+    "rarity": "2★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/jellomon.PNG",
+    "active_skill": "-",
+    "cooldown": "-",
+    "passive_skill": "-",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A burrowing Geniemon that thrives in the cracks between layers of soil. It feeds on rot and decay, enriching the land by returning nutrients to the earth."
+  },
+  {
+    "name": "Lumi",
+    "element": "Lumino",
+    "geniemon_type": "Active",
+    "rarity": "3★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/lumi_v1.PNG",
+    "active_skill": "Deals Lumino Damage equivalent to 468% of the main character's ATK to enemies within range, while decreasing their Damage Dealt by 1.8% 10s.",
+    "cooldown": "20s",
+    "passive_skill": "The main character and Combat Partners gain: Lumino ATK +0.8%, Max HP +3%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Agile, mischievous, and greedy, Lumi are lovers of shiny things. If you spot one, check your valuables!"
+  },
+  {
+    "name": "Luminelf",
+    "element": "Lumino",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/luminelf_v1.PNG",
+    "active_skill": "Deals Lumino Damage equal to 1170% of the main character's ATK to enemis within range and increases Lumino Damage by 3.1% for nearby teammates for 12s.",
+    "cooldown": "[To Be Updated]",
+    "passive_skill": "Increases Lumino ATK for the main character and the Combat Partners by 2.4% and the stats provided by Lumino Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by 0.9%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon of legendary rarity, its blody gleams with the lustre of opal. Long believed to exist only in bardic ballads and the dreams of minstrels."
+  },
+  {
+    "name": "Magnetix Drone",
+    "element": "Neutral",
+    "geniemon_type": "Inactive",
+    "rarity": "2★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/magnetix_drone.PNG",
+    "active_skill": "-",
+    "cooldown": "-",
+    "passive_skill": "-",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon that has mimicked the form of a Magnetix Drone. Though the mechanism behind geniemon mimicry remain an enigma, this variant has fully adapted to life in the aeolipile, evolving traits optimised for survival."
+  },
+  {
+    "name": "Mr Goodnight",
+    "element": "Neutral",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/mr_goodnight_v1.PNG",
+    "active_skill": "Heals teammates within range by 2.7% of their Max HP per second for 10s.",
+    "cooldown": "30s",
+    "passive_skill": "ATK 1.8%, Max HP +1.8%, DEF 1.8%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A lazy but incredibily long-lived Geniemon that spends over 98% its time in slumber. Perhaps that's the secret to its longevity."
+  },
+  {
+    "name": "Nebuthis",
+    "element": "Neutral",
+    "geniemon_type": "Active",
+    "rarity": "4★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/nebuthis_v1.PNG",
+    "active_skill": "Deals Umbro Damage equal to 585% of the main character's ATK to enemies within range and reduces their DEF by 3% for 10s.",
+    "cooldown": "20s",
+    "passive_skill": "Increases Umbro ATK for the main character and the Combat Partners by 1.2% and the stats provided by Demon Wedges prefixed with [Phoenix] by 0.5%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Often spotted drifting through abandoned castles and forgotten ruins, this Geniemon resembles a lone wisp of ghostly flame from afar."
+  },
+  {
+    "name": "Pearabbit",
+    "element": "Neutral",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/pearabbit_v1.PNG",
+    "active_skill": "Decreases the damage taken by nearby teammates by 60% for 0.9s.",
+    "cooldown": "25s",
+    "passive_skill": "Jump Speed +10%, Helix Leap Speed +10%, Sliding Friction -10%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A remarkably agile Geniemon. it's comically large ears not only fail to hinder its coordination but actually create a sleek, aerodynamic form that helps it move with incredible speed."
+  },
+  {
+    "name": "Pyrelf",
+    "element": "Pyro",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/pyrelf_v1.PNG",
+    "active_skill": "Deals Pyro Damage equal to 1170% of the main character's ATK to enemis within range and increases nearby teammates' [Multishot] by 10.5% for 12s.",
+    "cooldown": "[To Be Updated]",
+    "passive_skill": "Increases Pyro ATK for the main character and the Combat Partners by 2.4% and the stats provided by Pyro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by 0.9%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon of legendary rarity, its blody gleams with the lustre of carnelian. Long believed to exist only in bardic ballads and the dreams of minstrels."
+  },
+  {
+    "name": "Pyrootail",
+    "element": "Pyro",
+    "geniemon_type": "Active",
+    "rarity": "4★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/pyrootail_v1.PNG",
+    "active_skill": "Spawns 1 [Activated Sal Volatile], 1 [Tranquilizer Dewdrop], and 1 [Ammo Supply Chest]. Increases Skill Duration for teammates within range by 15% for 15s.",
+    "cooldown": "[To Be Updated]",
+    "passive_skill": "Increases Pyro ATK for the main character and the Combat Partners by 1.2% and the stats provided by Demon Wedges prefixed with [Phoenix] by 0.5%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "Wreathed in flames and native to scorching regions, this fiery Geniemon leaves a faint whiff of grilled meat wherever it goes."
+  },
+  {
+    "name": "Shroomie",
+    "element": "Anemo",
+    "geniemon_type": "Active",
+    "rarity": "3★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/shroomie_v1.PNG",
+    "active_skill": "Heals teammates within range by 15% of the main character's Max HP.",
+    "cooldown": "30s",
+    "passive_skill": "The main character and Combat Partners gain: Anemo ATK +0.8%, Max HP +3%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A parasitic Geniemon that grows inside fungi, gradually taking control of its host. The puffing sound it makes is caused by wind passing through the hollow space between its body and the husk of its host."
+  },
+  {
+    "name": "Umbrelf",
+    "element": "Neutral",
+    "geniemon_type": "Active",
+    "rarity": "5★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/umbrelf_v1.PNG",
+    "active_skill": "Deals Umbro Damage equal to 1170% of the main character's ATK to enemis within range and increases [Morale] for nearby teammates by 6% for 12s.",
+    "cooldown": "[To Be Updated]",
+    "passive_skill": "Increases Umbro ATK for the main character and the Combat Partners by 2.4% and the stats provided by Umbro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by 0.9%.",
+    "ascensions": [
+      "Ascension 1 : To be updated",
+      "Ascension 2 : To be updated",
+      "Ascension 3 : To be updated"
+    ],
+    "location": "[To be Updated]",
+    "lore": "A Geniemon of legendary rarity, its blody gleams with the lustre of obsidian. Long believed to exist only in bardic ballads and the dreams of minstrels."
+  },
+  {
+    "name": "Zippyro",
+    "element": "Pyro",
+    "geniemon_type": "Active",
+    "rarity": "3★",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/geniemon/zippyro_v1.PNG",
+    "active_skill": "Restore 9 points of Sanity for teammates within range.",
+    "cooldown": "40s",
+    "passive_skill": "The main character and Combat Partners gain: Pyro ATK +0.8%, Max HP +3%.",
+    "ascensions": [],
+    "location": "[To be Updated]",
+    "lore": "Mostly comprised of heat-producing glands, Zippyro releases waves of intense heat whenever it opens its mouth."
+  }
+]
