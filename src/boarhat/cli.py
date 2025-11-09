@@ -19,7 +19,13 @@ def cli():
     pass
 
 
-@cli.command()
+@cli.group()
+def character():
+    """Character data commands."""
+    pass
+
+
+@character.command("list")
 @click.option(
     "--source",
     "-s",
@@ -39,8 +45,8 @@ def cli():
     is_flag=True,
     help="Force fetch from URL (ignore cache)",
 )
-def characters(source: str, output_dir: Path, no_cache: bool):
-    """Scrape character data from boarhat.gg."""
+def character_list(source: str, output_dir: Path, no_cache: bool):
+    """Scrape character list from boarhat.gg."""
     cache_dir = Path("data/raw")
 
     # Clear cache if requested
@@ -78,48 +84,7 @@ def characters(source: str, output_dir: Path, no_cache: bool):
     console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
 
 
-@cli.command()
-@click.argument("character_slug")
-@click.option(
-    "--output",
-    "-o",
-    "output_dir",
-    type=click.Path(path_type=Path),
-    default=Path("data/processed/characters"),
-    help="Output directory",
-)
-@click.option(
-    "--no-cache",
-    is_flag=True,
-    help="Force fetch from URL (ignore cache)",
-)
-def character_detail(character_slug: str, output_dir: Path, no_cache: bool):
-    """Scrape detailed character data for a specific character."""
-    cache_dir = Path("data/raw")
-
-    # Clear cache if requested
-    if no_cache:
-        cache_file = cache_dir / f"character_{character_slug}.html"
-        if cache_file.exists():
-            cache_file.unlink()
-            console.print(f"[yellow]Cleared cache: {cache_file}[/yellow]")
-
-    url = f"https://boarhat.gg/games/duet-night-abyss/character/{character_slug}/"
-    scraper = CharacterDetailScraper(url, output_dir, cache_dir, character_slug)
-    data, output_path = scraper.run()
-
-    if data:
-        char = data[0]
-        console.print(f"\n[bold green]✓ Scraped details for {char.name}[/bold green]")
-        console.print(f"  Profile: {bool(char.profile)}")
-        console.print(f"  Traits: {len(char.traits)}")
-        console.print(f"  Base Stats: {len(char.base_stats)}")
-        console.print(f"  Skills: {len(char.skills)}")
-
-    console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
-
-
-@cli.command()
+@character.command("all")
 @click.option(
     "--output",
     "-o",
@@ -133,10 +98,8 @@ def character_detail(character_slug: str, output_dir: Path, no_cache: bool):
     is_flag=True,
     help="Force fetch from URLs (ignore cache)",
 )
-def all_characters(output_dir: Path, no_cache: bool):
+def character_all(output_dir: Path, no_cache: bool):
     """Scrape detailed data for all characters."""
-    import json
-
     cache_dir = Path("data/raw")
 
     # First, get the list of all characters
@@ -197,18 +160,61 @@ def all_characters(output_dir: Path, no_cache: bool):
     console.print(f"\n✓ All character details saved to: [bold green]{output_dir}[/bold green]")
 
 
-@cli.command()
-def list_scrapers():
+@character.command()
+@click.argument("character_slug")
+@click.option(
+    "--output",
+    "-o",
+    "output_dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/processed/characters"),
+    help="Output directory",
+)
+@click.option(
+    "--no-cache",
+    is_flag=True,
+    help="Force fetch from URL (ignore cache)",
+)
+def get(character_slug: str, output_dir: Path, no_cache: bool):
+    """Scrape detailed data for a specific character."""
+    cache_dir = Path("data/raw")
+
+    # Clear cache if requested
+    if no_cache:
+        cache_file = cache_dir / f"character_{character_slug}.html"
+        if cache_file.exists():
+            cache_file.unlink()
+            console.print(f"[yellow]Cleared cache: {cache_file}[/yellow]")
+
+    url = f"https://boarhat.gg/games/duet-night-abyss/character/{character_slug}/"
+    scraper = CharacterDetailScraper(url, output_dir, cache_dir, character_slug)
+    data, output_path = scraper.run()
+
+    if data:
+        char = data[0]
+        console.print(f"\n[bold green]✓ Scraped details for {char.name}[/bold green]")
+        console.print(f"  Profile: {bool(char.profile)}")
+        console.print(f"  Traits: {len(char.traits)}")
+        console.print(f"  Base Stats: {len(char.base_stats)}")
+        console.print(f"  Skills: {len(char.skills)}")
+
+    console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
+
+
+@cli.command("list")
+def list_command():
     """List available scrapers."""
     table = Table(title="Available Scrapers")
     table.add_column("Command", style="cyan")
     table.add_column("Description", style="green")
     table.add_column("Status", style="yellow")
 
-    table.add_row("characters", "Scrape character data", "✓ Available")
-    table.add_row("weapons", "Scrape weapon data", "⚠ Not implemented")
-    table.add_row("geniemon", "Scrape geniemon data", "⚠ Not implemented")
-    table.add_row("demon-wedge", "Scrape demon wedge data", "⚠ Not implemented")
+    table.add_row("character list", "List all characters", "✓ Available")
+    table.add_row("character all", "Scrape all character details", "✓ Available")
+    table.add_row("character get [name]", "Scrape specific character", "✓ Available")
+    table.add_row("weapons", "Scrape weapon data", "⚠ Coming soon")
+    table.add_row("geniemon", "Scrape geniemon data", "⚠ Coming soon")
+    table.add_row("demon-wedge", "Scrape demon wedge data", "⚠ Coming soon")
 
     console.print(table)
 
