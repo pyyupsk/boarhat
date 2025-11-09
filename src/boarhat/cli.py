@@ -6,7 +6,12 @@ import click
 from rich.console import Console
 from rich.table import Table
 
-from boarhat.scrapers import CharacterScraper, GeniemonScraper, WeaponScraper
+from boarhat.scrapers import (
+    CharacterScraper,
+    DemonWedgeScraper,
+    GeniemonScraper,
+    WeaponScraper,
+)
 from boarhat.scrapers.character_detail import CharacterDetailScraper
 
 console = Console()
@@ -333,6 +338,71 @@ def geniemon_list(source: str, output_dir: Path, no_cache: bool):
     console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
 
 
+@cli.group()
+def demon_wedge():
+    """Demon Wedge data commands."""
+    pass
+
+
+@demon_wedge.command("list")
+@click.option(
+    "--source",
+    "-s",
+    default="https://boarhat.gg/games/duet-night-abyss/demon-wedge/",
+    help="URL or file path to scrape",
+)
+@click.option(
+    "--output",
+    "-o",
+    "output_dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/processed"),
+    help="Output directory",
+)
+@click.option(
+    "--no-cache",
+    is_flag=True,
+    help="Force fetch from URL (ignore cache)",
+)
+def demon_wedge_list(source: str, output_dir: Path, no_cache: bool):
+    """Scrape demon wedge list from boarhat.gg."""
+    cache_dir = Path("data/raw")
+
+    # Clear cache if requested
+    if no_cache and isinstance(source, str) and source.startswith("http"):
+        cache_file = cache_dir / "demon_wedge.html"
+        if cache_file.exists():
+            cache_file.unlink()
+            console.print(f"[yellow]Cleared cache: {cache_file}[/yellow]")
+
+    scraper = DemonWedgeScraper(source, output_dir, cache_dir)
+    data, output_path = scraper.run()
+
+    # Display summary
+    table = Table(title="Demon Wedge Summary")
+    table.add_column("Attribute", style="cyan")
+    table.add_column("Value", style="green")
+
+    table.add_row("Total Demon Wedges", str(len(data)))
+
+    # Count by restriction
+    from collections import Counter
+
+    restrictions = Counter(w.restriction for w in data)
+    table.add_row("Restrictions", ", ".join(f"{k}: {v}" for k, v in restrictions.most_common()))
+
+    # Count by element
+    elements = Counter(w.element for w in data)
+    table.add_row("Elements", ", ".join(f"{k}: {v}" for k, v in elements.most_common()))
+
+    # Count by rarity
+    rarities = Counter(w.rarity for w in data)
+    table.add_row("Rarities", ", ".join(f"{k}: {v}" for k, v in rarities.most_common()))
+
+    console.print(table)
+    console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
+
+
 @cli.command("list")
 def list_command():
     """List available scrapers."""
@@ -346,7 +416,7 @@ def list_command():
     table.add_row("character get [name]", "Scrape specific character", "✓ Available")
     table.add_row("weapon list", "Scrape weapon data", "✓ Available")
     table.add_row("geniemon list", "Scrape geniemon data", "✓ Available")
-    table.add_row("demon-wedge", "Scrape demon wedge data", "⚠ Coming soon")
+    table.add_row("demon-wedge list", "Scrape demon wedge data", "✓ Available")
 
     console.print(table)
 
