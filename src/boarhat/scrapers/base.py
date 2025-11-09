@@ -61,7 +61,7 @@ class BaseScraper(ABC, Generic[T]):
 
             if cache_file.exists():
                 print(f"[{self.category_name}] Loading from cache: {cache_file}")
-                with open(cache_file, "r", encoding="utf-8") as f:
+                with open(cache_file, encoding="utf-8") as f:
                     html_content = f.read()
             else:
                 print(f"[{self.category_name}] Fetching from URL: {self.source}")
@@ -79,7 +79,7 @@ class BaseScraper(ABC, Generic[T]):
             if not file_path.exists():
                 raise FileNotFoundError(f"HTML file not found: {file_path}")
 
-            with open(file_path, "r", encoding="utf-8") as f:
+            with open(file_path, encoding="utf-8") as f:
                 html_content = f.read()
 
         return BeautifulSoup(html_content, "lxml")

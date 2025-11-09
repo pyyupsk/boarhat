@@ -1,6 +1,5 @@
 """Character detail page scraper."""
 
-import json
 from pathlib import Path
 
 from boarhat.models.character_detail import BaseStat, CharacterDetail, Profile, Skill, Trait
@@ -119,7 +118,9 @@ class CharacterDetailScraper(BaseScraper[CharacterDetail]):
         skill_header = soup.find("h2", id="skill")
         if skill_header:
             # Find all skill containers
-            skill_containers = skill_header.find_next("div", class_="grid").find_all("div", recursive=False)
+            skill_containers = skill_header.find_next("div", class_="grid").find_all(
+                "div", recursive=False
+            )
 
             for container in skill_containers:
                 skill_type_elem = container.find("b", class_="bg-gray-800")
@@ -143,7 +144,9 @@ class CharacterDetailScraper(BaseScraper[CharacterDetail]):
                 stats_dict = {}
 
                 if stat_table:
-                    rows = stat_table.find("tbody").find_all("tr") if stat_table.find("tbody") else []
+                    rows = (
+                        stat_table.find("tbody").find_all("tr") if stat_table.find("tbody") else []
+                    )
 
                     for row in rows:
                         cols = row.find_all("td")
@@ -183,7 +186,7 @@ class CharacterDetailScraper(BaseScraper[CharacterDetail]):
         image_url = ""
         main_image = soup.find("img", alt=name)
         if main_image and main_image.get("src"):
-            image_url = main_image.get("src", "")
+            image_url = str(main_image.get("src", ""))
 
         # Parse sections
         profile = self._parse_profile(soup)

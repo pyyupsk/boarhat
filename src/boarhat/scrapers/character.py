@@ -36,7 +36,7 @@ class CharacterScraper(BaseScraper[Character]):
             try:
                 # Extract character URL
                 url = card.get("href", "")
-                if not url or url.endswith("/character/"):
+                if not url or not isinstance(url, str) or url.endswith("/character/"):
                     continue
 
                 # Get character name
@@ -49,8 +49,9 @@ class CharacterScraper(BaseScraper[Character]):
                 border_div = card.find("div", class_=lambda x: x and "border-" in x)
                 rarity = "Unknown"
                 if border_div:
-                    classes = border_div.get("class", [])
-                    rarity = self._parse_rarity(" ".join(classes))
+                    classes = border_div.get("class")
+                    if isinstance(classes, list):
+                        rarity = self._parse_rarity(" ".join(classes))
 
                 # Extract element and role
                 element_role_divs = card.find_all("div", class_="text-xs text-gray-400 text-center")
@@ -67,7 +68,7 @@ class CharacterScraper(BaseScraper[Character]):
 
                 # Extract image URL
                 img = card.find("img")
-                image_url = img.get("src", "") if img else ""
+                image_url = str(img.get("src", "")) if img else ""
 
                 # Find the hover tooltip for additional details
                 tooltip = card.find("div", class_=lambda x: x and "group-hover:flex" in x)
@@ -77,14 +78,14 @@ class CharacterScraper(BaseScraper[Character]):
 
                 if tooltip:
                     # Extract proficiency
-                    prof_elem = tooltip.find("strong", string="Proficiency:")
+                    prof_elem = tooltip.find("strong", string="Proficiency:")  # type: ignore
                     if prof_elem and prof_elem.parent:
                         prof_text = prof_elem.parent.get_text(strip=True)
                         prof_text = prof_text.replace("Proficiency:", "").strip()
                         proficiency = [p.strip() for p in prof_text.split(",")]
 
                     # Extract features
-                    feat_elem = tooltip.find("strong", string="Feature:")
+                    feat_elem = tooltip.find("strong", string="Feature:")  # type: ignore
                     if feat_elem and feat_elem.parent:
                         feat_text = feat_elem.parent.get_text(strip=True)
                         feat_text = feat_text.replace("Feature:", "").strip()

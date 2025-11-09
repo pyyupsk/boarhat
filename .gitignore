@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Linting and type checking
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# IDE
+.idea/
+*.swp
+*.swo

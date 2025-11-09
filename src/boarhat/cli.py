@@ -114,7 +114,9 @@ def character_all(output_dir: Path, no_cache: bool):
     console.print(f"\n[bold green]Found {len(characters)} characters[/bold green]\n")
 
     # Scrape details for each character
-    console.print("[bold yellow]Step 2: Scraping detailed data for each character...[/bold yellow]\n")
+    console.print(
+        "[bold yellow]Step 2: Scraping detailed data for each character...[/bold yellow]\n"
+    )
 
     success_count = 0
     failed = []
@@ -137,23 +139,23 @@ def character_all(output_dir: Path, no_cache: bool):
 
             if data:
                 success_count += 1
-                console.print(f"  [green]✓ Success[/green]")
+                console.print("  [green]✓ Success[/green]")
             else:
                 failed.append(char.name)
-                console.print(f"  [red]✗ No data[/red]")
+                console.print("  [red]✗ No data[/red]")
 
         except Exception as e:
             failed.append(char.name)
             console.print(f"  [red]✗ Error: {e}[/red]")
 
     # Summary
-    console.print(f"\n[bold green]Summary[/bold green]")
+    console.print("\n[bold green]Summary[/bold green]")
     console.print(f"  Total: {len(characters)}")
     console.print(f"  Success: {success_count}")
     console.print(f"  Failed: {len(failed)}")
 
     if failed:
-        console.print(f"\n[yellow]Failed characters:[/yellow]")
+        console.print("\n[yellow]Failed characters:[/yellow]")
         for name in failed:
             console.print(f"  - {name}")
 

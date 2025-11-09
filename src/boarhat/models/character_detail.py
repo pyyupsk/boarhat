@@ -37,7 +37,9 @@ class Skill:
     name: str
     type: str  # "Skill - DMG", "Ultimate - Buff", etc.
     description: str
-    stats: dict[str, dict[str, str]] = field(default_factory=dict)  # stat_name -> {level_1, level_max}
+    stats: dict[str, dict[str, str]] = field(
+        default_factory=dict
+    )  # stat_name -> {level_1, level_max}
 
 
 @dataclass
