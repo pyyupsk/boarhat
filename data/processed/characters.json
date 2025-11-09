@@ -1,0 +1,525 @@
+[
+  {
+    "name": "Berenica",
+    "element": "Umbro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Sword",
+      "Dual Pistols"
+    ],
+    "features": [
+      "DPS",
+      "Consonance Weapon",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "T1",
+      "boss": "T1"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/berenica.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/berenica/"
+  },
+  {
+    "name": "Daphne",
+    "element": "Anemo",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Whipsword",
+      "Assault Rifle"
+    ],
+    "features": [
+      "Support",
+      "Control",
+      "Heal"
+    ],
+    "tier": {
+      "farming": "T1",
+      "boss": "T1"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/daphne.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/daphne/"
+  },
+  {
+    "name": "Fina",
+    "element": "Lumino",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Sword",
+      "Assault Rifle"
+    ],
+    "features": [
+      "Support",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T0"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/fina.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/fina/"
+  },
+  {
+    "name": "Fushu",
+    "element": "Hydro",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Whipsword",
+      "Bow"
+    ],
+    "features": [
+      "Support",
+      "Sanity Recovery",
+      "Heal"
+    ],
+    "tier": {
+      "farming": "TBD",
+      "boss": "TBD"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/fushu_v2.png",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/fushu/"
+  },
+  {
+    "name": "Hellfire",
+    "element": "Pyro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Greatsword",
+      "Grenade Launcher"
+    ],
+    "features": [
+      "DPS",
+      "Max HP",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T2"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/hellfire.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/hellfire/"
+  },
+  {
+    "name": "Hilda",
+    "element": "Pyro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Dual Blades",
+      "Grenade Launcher"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "TBD",
+      "boss": "TBD"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/hilda.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/hilda/"
+  },
+  {
+    "name": "Kezhou",
+    "element": "Lumino",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Sword",
+      "Dual Pistols",
+      "Whipsword",
+      "Assault Rifle",
+      "Greatsword",
+      "Grenade Launcher",
+      "Dual Blades",
+      "Katana",
+      "Pistol",
+      "Polearm",
+      "Shotgun",
+      "Bow"
+    ],
+    "features": [
+      "DPS",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "TBD",
+      "boss": "TBD"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/kezhou.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/kezhou/"
+  },
+  {
+    "name": "Lady Nifle",
+    "element": "Lumino",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Katana",
+      "Pistol"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T0"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/lady-nifle_v2.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/lady-nifle/"
+  },
+  {
+    "name": "Lisbell",
+    "element": "Lumino",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Greatsword",
+      "Shotgun"
+    ],
+    "features": [
+      "DPS",
+      "Consonance Weapon",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T0"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/lisbell.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/lisbell/"
+  },
+  {
+    "name": "Lynn",
+    "element": "Pyro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Greatsword",
+      "Dual Pistols"
+    ],
+    "features": [
+      "DPS",
+      "Consonance Weapon",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T0"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/lynn_v2.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/lynn/"
+  },
+  {
+    "name": "Margie",
+    "element": "Pyro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Polearm",
+      "Shotgun"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T3",
+      "boss": "T3"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/margie.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/margie/"
+  },
+  {
+    "name": "Margie (Support)",
+    "element": "Pyro",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Polearm",
+      "Shotgun"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T2",
+      "boss": "T2"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/margie.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/margie/"
+  },
+  {
+    "name": "Outsider",
+    "element": "Anemo",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Dual Blades",
+      "Dual Pistols"
+    ],
+    "features": [
+      "DPS",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "T1",
+      "boss": "T2"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/outsider_v2.png",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/outsider/"
+  },
+  {
+    "name": "Phantasio",
+    "element": "Umbro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Greatsword",
+      "Shotgun"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T1",
+      "boss": "T1"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/phantasio_v2.png",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/phantasio/"
+  },
+  {
+    "name": "Protagonist",
+    "element": "Lumino",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Sword",
+      "Assault Rifle"
+    ],
+    "features": [
+      "Support"
+    ],
+    "tier": {
+      "farming": "T1",
+      "boss": "T1"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/player.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/protagonist/"
+  },
+  {
+    "name": "Psyche",
+    "element": "Anemo",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Polearm",
+      "Assault Rifle"
+    ],
+    "features": [
+      "DPS",
+      "Consonance Weapon",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T0"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/psyche.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/psyche/"
+  },
+  {
+    "name": "Randy",
+    "element": "Electro",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Sword",
+      "Pistol"
+    ],
+    "features": [
+      "Support",
+      "DEF",
+      "Shield"
+    ],
+    "tier": {
+      "farming": "T1",
+      "boss": "T3"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/randy_v2.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/randy/"
+  },
+  {
+    "name": "Rebecca",
+    "element": "Hydro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Polearm",
+      "Grenade Launcher"
+    ],
+    "features": [
+      "DPS",
+      "Summon",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T1"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/rebecca.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/rebecca/"
+  },
+  {
+    "name": "Rhythm",
+    "element": "Electro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Katana",
+      "Assault Rifle"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T2"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/rhythm_v2.png",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/rhythm/"
+  },
+  {
+    "name": "Sibylle",
+    "element": "Electro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Whipsword",
+      "Pistol"
+    ],
+    "features": [
+      "DPS",
+      "Max HP",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T2",
+      "boss": "T1"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/sibylle_v2.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/sibylle/"
+  },
+  {
+    "name": "Tabethe",
+    "element": "Hydro",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Sword",
+      "Bow"
+    ],
+    "features": [
+      "Support",
+      "Control",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T1"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/tabethe.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/tabethe/"
+  },
+  {
+    "name": "Truffle and Filbert",
+    "element": "Anemo",
+    "role": "Support",
+    "rarity": "SR",
+    "proficiency": [
+      "Polearm",
+      "Bow"
+    ],
+    "features": [
+      "Support",
+      "Max HP",
+      "Heal"
+    ],
+    "tier": {
+      "farming": "T0",
+      "boss": "T0"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/trufle-filbert_v2.png",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/truffle-filbert/"
+  },
+  {
+    "name": "Yale and Oliver",
+    "element": "Pyro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Sword",
+      "Shotgun"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "T2",
+      "boss": "T2"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/yale-oliver.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/yale-oliver/"
+  },
+  {
+    "name": "Yuming",
+    "element": "Electro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Polearm",
+      "Assault Rifle"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG",
+      "Weapon DMG"
+    ],
+    "tier": {
+      "farming": "TBD",
+      "boss": "TBD"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/yuming.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/yuming/"
+  },
+  {
+    "name": "Zhiliu",
+    "element": "Electro",
+    "role": "DPS",
+    "rarity": "SSR",
+    "proficiency": [
+      "Greatsword",
+      "Dual Pistols"
+    ],
+    "features": [
+      "DPS",
+      "Skill DMG"
+    ],
+    "tier": {
+      "farming": "TBD",
+      "boss": "TBD"
+    },
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/zhiliu.PNG",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/zhiliu/"
+  }
+]

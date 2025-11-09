@@ -1,7 +1,20 @@
 [project]
 name = "boarhat"
 version = "0.1.0"
-description = "Add your description here"
+description = "Comprehensive data scraper for Duet Night Abyss from boarhat.gg"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "click>=8.3.0",
+    "httpx>=0.28.1",
+    "lxml>=6.0.2",
+    "rich>=14.2.0",
+]
+
+[project.scripts]
+boarhat = "boarhat.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
