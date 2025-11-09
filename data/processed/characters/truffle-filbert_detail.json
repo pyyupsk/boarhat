@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Truffle and Filbert",
+    "slug": "truffle-filbert",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/truffle-filbert/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/trufle-filbert_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "The Elysian Church",
+      "birthday": "1 June",
+      "allegiance": "The Elysian Church"
+    },
+    "traits": [
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Tamer",
+        "effect": "Skilled in training Geniemons"
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck - more likely to receive unexpected gains"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Anemo ATK",
+        "level_1": "12",
+        "level_max": "150.63"
+      },
+      {
+        "stat": "HP",
+        "level_1": "185",
+        "level_max": "3483"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "150",
+        "level_max": "1883"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "310",
+        "level_max": "310"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "120",
+        "level_max": "120"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Trotters Trot-Trot",
+        "type": "Skill - DMG",
+        "description": "Commands [Filbert] to charge forwards, dealing Anemo Damage to enemies in the path. Upon hitting any obstacles, deals AOE Anemo Damage at the endpoint. When using this skill, heals Truffle and Filbert and her nearby teammates and increases their damage. When Truffle rides on [Filbert], this skill is replaced with [Trotters Charge-Charge]. [Trotters Charge-Charge]: Hold for a sustained charge, continuously consuming Sanity and dealing Anemo Damage to enemies in the path. Upon hitting any obstacle, Filbert stops charging, dealing AOE Anemo Damage at the endpoint.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "20",
+            "level_max": "20"
+          },
+          "Path DMG": {
+            "level_1": "14% Max HP + 15",
+            "level_max": "50% Max HP + 51"
+          },
+          "Endpoint DMG": {
+            "level_1": "14% Max HP + 15",
+            "level_max": "50% Max HP + 51"
+          },
+          "Endpoint DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "Healing": {
+            "level_1": "1.6% max HP + 30",
+            "level_max": "1.6% max HP + 30"
+          },
+          "DMG Boost": {
+            "level_1": "26%",
+            "level_max": "89%"
+          },
+          "DMG Boost Duration": {
+            "level_1": "6s",
+            "level_max": "6.9s"
+          },
+          "[Trotters Charge-Charge] Sanity Cost per second": {
+            "level_1": "6",
+            "level_max": "6"
+          },
+          "[Trotters Charge-Charge] Endpoint DMG": {
+            "level_1": "119% Max HP + 125",
+            "level_max": "362% Max HP + 368"
+          },
+          "[Trotters Charge-Charge] Endpoint DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          }
+        }
+      },
+      {
+        "name": "Tummy Full, Hands Full",
+        "type": "Ultimate - Buff",
+        "description": "Truffle rides on [Filbert] and gains 100 points of [Passion For Work] and a Movement Speed boost, dealing Anemo Damage to enemies in the path when moving. When riding on [Filbert], Truffle is unable to use any weapon but can command [Filbert] to attack. When this skill is used again, Truffle dismounts and unleashes [Trotters Trot-Trot] once. [Passion For Work] loses 5 point per second, and restores 1 when dealing damage upon knocking into a target. During [Trotters Charge-Charge], [Passion For Work] will not lose. When all [Passion For Work] points drop to 0, Truffle dismounts and unleashes [Trotters Trot-Trot] once.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "60",
+            "level_max": "60"
+          },
+          "Path DMG": {
+            "level_1": "119% Max HP + 125",
+            "level_max": "362% Max HP + 368"
+          },
+          "Filber 1-Hit DMG": {
+            "level_1": "126% Max HP + 132",
+            "level_max": "387% Max HP + 393"
+          },
+          "Filber 2-Hit DMG": {
+            "level_1": "158% Max HP + 156",
+            "level_max": "473% Max HP + 480"
+          },
+          "Filbert Plunge DMG": {
+            "level_1": "122% Max HP + 128",
+            "level_max": "374% Max HP + 380"
+          }
+        }
+      },
+      {
+        "name": "Chop-Chop, Commisaries!",
+        "type": "Passive",
+        "description": "Gain 1 stack of [Heavyweight] for every second Truffle keeps moving, up to 10 stacks. [Heavyweight]: Increases Damage Dealt and Decreases Damage Taken.",
+        "stats": {
+          "DMG Boost per stack": {
+            "level_1": "3.7%",
+            "level_max": "10%"
+          },
+          "DMG Taken Decrease per stacks": {
+            "level_1": "0.65%",
+            "level_max": "2%"
+          },
+          "Duration": {
+            "level_1": "18s",
+            "level_max": "20.7s"
+          }
+        }
+      }
+    ]
+  }
+]

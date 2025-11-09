@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Protagonist",
+    "slug": "protagonist",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/protagonist/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/player_v1.png",
+    "profile": {
+      "gender": "-",
+      "birthplace": "-",
+      "birthday": "-",
+      "allegiance": "-"
+    },
+    "traits": [],
+    "base_stats": [
+      {
+        "stat": "Lumino ATK",
+        "level_1": "22",
+        "level_max": "276.15"
+      },
+      {
+        "stat": "HP",
+        "level_1": "120",
+        "level_max": "1506"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "120",
+        "level_max": "1506"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "300",
+        "level_max": "300"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "100",
+        "level_max": "100"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Dawn Beyond Night",
+        "type": "Skill - DMG",
+        "description": "Unleashes 2 Swordwaves, dealing Lumino DMG to enemies on hit and guaranteed to trigger Lumino bonus effects.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "15",
+            "level_max": "15"
+          },
+          "Swordwave DMG": {
+            "level_1": "476%",
+            "level_max": "1439%"
+          },
+          "Swordwave Width": {
+            "level_1": "10m",
+            "level_max": "13m"
+          }
+        }
+      },
+      {
+        "name": "Flare",
+        "type": "Ultimate - Buff",
+        "description": "Deals Lumino DMG to nearby enemies and grants self and allies both Ultra Shields and [Incandenscence] [Incandenscence]: Increase Weapon DMG.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "35",
+            "level_max": "35"
+          },
+          "DMG": {
+            "level_1": "702%",
+            "level_max": "2115%"
+          },
+          "DMG Radius": {
+            "level_1": "10m",
+            "level_max": "13m"
+          },
+          "Ultra Shield": {
+            "level_1": "5% Max Shield",
+            "level_max": "5% Max Shield"
+          },
+          "Duration": {
+            "level_1": "12s",
+            "level_max": "13.8s"
+          },
+          "Weapon DMG Boost": {
+            "level_1": "15%",
+            "level_max": "51%"
+          }
+        }
+      },
+      {
+        "name": "Diffusion",
+        "type": "Passive",
+        "description": "When a Lumino bonus effect is triggered, deals an additional Lumino AoE Damage at the target's location.",
+        "stats": {
+          "DMG": {
+            "level_1": "201%",
+            "level_max": "705%"
+          },
+          "DMG Radius": {
+            "level_1": "3m",
+            "level_max": "3.9m"
+          }
+        }
+      }
+    ]
+  }
+]

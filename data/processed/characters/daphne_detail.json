@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Daphne",
+    "slug": "daphne",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/daphne/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/daphne_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "8 May",
+      "allegiance": "The 13th Legion"
+    },
+    "traits": [
+      {
+        "name": "Geologist",
+        "effect": "Skilled in Mining."
+      },
+      {
+        "name": "Impression : Wisdom",
+        "effect": "Quick-witted or highly knowledgeable in specific fields."
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck - more likely to receive unexpected gains."
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Anemo ATK",
+        "level_1": "19",
+        "level_max": "357.74"
+      },
+      {
+        "stat": "HP",
+        "level_1": "100",
+        "level_max": "1255"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "100",
+        "level_max": "1255"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "285",
+        "level_max": "285"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "160",
+        "level_max": "160"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "118%",
+        "level_max": "118%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Emerald Effusion",
+        "type": "Skill - Healing",
+        "description": "Grants [Emerald Effusion], While active, alchemical smoke fills the area around user, continuously healing self and allies while slowing enemies in the area. While [Emerald Effusion] is active, generates 2 [Azoth Projectiles] per second.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "50",
+            "level_max": "50"
+          },
+          "HP Recovery per Second": {
+            "level_1": "0.24% ATK + 3",
+            "level_max": "0.6% ATK + 3"
+          },
+          "Duration": {
+            "level_1": "17.7s",
+            "level_max": "17.7s"
+          },
+          "Effect Radius": {
+            "level_1": "6m",
+            "level_max": "7.8m"
+          }
+        }
+      },
+      {
+        "name": "Repulsion Synthesis",
+        "type": "Ultimate - Buff",
+        "description": "Heals self and allies, applying [Purification Formula]. Briefly restrains nearby enemies and inflicts [Decay Formula] on them. Generates 1 [Azoth Projectiles] per affected target (ally or enemy), up to a maximum of 12. [Purification Formula] : Gains bonus Anemo Damage. [Decay Formula] : Decreases Attack and deals periodic Anemo Damage to affected targets once every 2s.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "60",
+            "level_max": "60"
+          },
+          "Healing": {
+            "level_1": "2.5% ATK + 35",
+            "level_max": "7% ATK + 35"
+          },
+          "[Purification Formula] Duration": {
+            "level_1": "14.16s",
+            "level_max": "14.16s"
+          },
+          "Additional DMG": {
+            "level_1": "6.6%",
+            "level_max": "21%"
+          },
+          "Effect radius for Opponents": {
+            "level_1": "10m",
+            "level_max": "13m"
+          },
+          "[Decay Formula] Duration": {
+            "level_1": "14.16s",
+            "level_max": "14.16s"
+          },
+          "DoT": {
+            "level_1": "43%",
+            "level_max": "133%"
+          },
+          "ATK Reduce": {
+            "level_1": "15%",
+            "level_max": "15%"
+          },
+          "Immobilization duration": {
+            "level_1": "3.54s",
+            "level_max": "3.54s"
+          }
+        }
+      },
+      {
+        "name": "Azoth Projectile",
+        "type": "Passive",
+        "description": "Increases Daphne's Ranged Weapon Trigger Probability when she possesses [Azoth Projectile]. Daphne can hold up to 30 [Azoth Projectiles], and each ranged weapon attack consumes 1 [Azoth Projectile].",
+        "stats": {
+          "Trigger Probability Boost": {
+            "level_1": "37%",
+            "level_max": "100%"
+          }
+        }
+      }
+    ]
+  }
+]

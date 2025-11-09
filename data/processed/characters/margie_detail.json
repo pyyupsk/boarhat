@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Margie",
+    "slug": "margie",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/margie/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/margie_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "20 September",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Gleaner",
+        "effect": "Skilled in gathering resources"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck - more likely to receive unexpected gains."
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Pyro ATK",
+        "level_1": "21",
+        "level_max": "395.39"
+      },
+      {
+        "stat": "HP",
+        "level_1": "83",
+        "level_max": "1042"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "83",
+        "level_max": "1042"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "264",
+        "level_max": "264"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "160",
+        "level_max": "160"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Margie's Treasure Shovel",
+        "type": "Skill - DMG",
+        "description": "Attack enemies within range in front, dealing Pyro Damage and stunning them. When using this kill by long press, margie make a continuous attack.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "Effect Radius": {
+            "level_1": "6m",
+            "level_max": "7.8m"
+          },
+          "DMG": {
+            "level_1": "157.0%",
+            "level_max": "463.0%"
+          },
+          "Stun Duration": {
+            "level_1": "2s",
+            "level_max": "2s"
+          },
+          "Max target": {
+            "level_1": "6",
+            "level_max": "6"
+          }
+        }
+      },
+      {
+        "name": "Margie's Combustible Bin",
+        "type": "Ultimate - DMG",
+        "description": "Cast 3 [Margie's Combustible Bins] forward.they immediately explode upon hitting any target or obstacle, dealing AOE Pyro Damage and consuming a certain stacks of [Jackpot!]; When consuming 3 stacks of [Jackpot!]: Increases the Explosion range and damage When consuming 6 stacks of [Jackpot!]: Create a Zealous Zone after the explosion, dealing Pyro Damage once every 2s to enemies within the zone. When consuming 9 stacks of [Jackpot!]: Deals additional AOE Pyro Damage 2 times after the explosion.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "50",
+            "level_max": "50"
+          },
+          "Explosion DMG": {
+            "level_1": "126%",
+            "level_max": "378%"
+          },
+          "Explosion Range": {
+            "level_1": "6m",
+            "level_max": "7.8m"
+          },
+          "Enhanced Explosion DMG": {
+            "level_1": "187%",
+            "level_max": "556%"
+          },
+          "Enhanced Explosion Range": {
+            "level_1": "10m",
+            "level_max": "13m"
+          },
+          "Zealous Zone DMG": {
+            "level_1": "49%",
+            "level_max": "139%"
+          },
+          "Zealous Zone Range": {
+            "level_1": "10m",
+            "level_max": "13m"
+          },
+          "Zealous Zone Duration": {
+            "level_1": "10s",
+            "level_max": "10s"
+          },
+          "Additional DMG": {
+            "level_1": "127%",
+            "level_max": "370%"
+          },
+          "Additional DMG Range": {
+            "level_1": "6m",
+            "level_max": "7.8m"
+          }
+        }
+      },
+      {
+        "name": "Margie's Recycling Sack",
+        "type": "Passive",
+        "description": "When the user or nearby allies pick up loot, Margie gains 1 stack of [Jackpot!] lasting for the rest of the battle. Each stack increases Skill Damage, up to 20 stacks.",
+        "stats": {
+          "Skill DMG Boost per stack": {
+            "level_1": "2.4%",
+            "level_max": "6%"
+          }
+        }
+      }
+    ]
+  }
+]

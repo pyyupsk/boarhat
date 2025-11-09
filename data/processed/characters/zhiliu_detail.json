@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Zhiliu",
+    "slug": "zhiliu",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/zhiliu/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/zhiliu.PNG",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Huaxu",
+      "birthday": "18 December",
+      "allegiance": "EverSpring"
+    },
+    "traits": [
+      {
+        "name": "Impression: Wisdom",
+        "effect": "-"
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "-"
+      },
+      {
+        "name": "Astute Mind",
+        "effect": "-"
+      }
+    ],
+    "base_stats": [],
+    "skills": [
+      {
+        "name": "Celestial Revelation",
+        "type": "Skill - DMG",
+        "description": "Press: Zhiliu uses [Celestial Revelation: Zhen], dealing Electro Damage to enemies within range in front, which grants Zhiliu 1 [Talisman: Zhen]. Hold: Zhiliu uses [Celestial Revelation: Xun], dealing Electro Damage to enemies within range in front, which grants Zhiliu Ultra Shield and 1 [Talisman: Xun].",
+        "stats": {}
+      },
+      {
+        "name": "Heaven-Earth Divination",
+        "type": "Ultimate - DMG",
+        "description": "When Zhiliu has fewer than 2 [Talismans], deals Electro Damage to enemies within range. When Zhiliu has 2 [Talismans], this skill is replaced with another skill based on the type of [Talisman]. [Thunder's Oracle Peal]: When Zhiliu have 2 [Talismans: Zhen], [Heaven-Earth Divination] is replaced with [Thunder's Oracle Peal]. [Thunder's Oracle Peal]: Consumes all [Talismans], dealing Electro Damage to enemies in a straight line ahead. [Myriad Things Thrive]: When Zhiliu have 1 [Talismans: Zhen] and 1 [Talismans: Xun], [Heaven-Earth Divination] is replaced with [Myriad Things Thrive]. [Myriad Things Thrive]: Consumes all [Talismans], dealing periodic damage to enemies within range in front, then creates a [Four Realms Align] field at the location. [Four Realms Align]: Selects several enemies within range every 3s and inflict 1 strike of [Zhen-Xun Convergence] on them. [Zhen-Xun Convergence]: Deals AOE Electro Damage [Fortune's Clarity]: When Zhiliu have 2 [Talismans: Xun], [Heaven-Earth Divination] is replaced with [Fortune's Clarity]. [Fortune's Clarity]: Consumes all [Talismans] to deal Electro Damage to enemies around and increase Zhiliu's Skill Damage.",
+        "stats": {}
+      },
+      {
+        "name": "Talismans Coalescence",
+        "type": "Passive",
+        "description": "Obtains [Talismans] through [Celestial Revelation], up to 2 [Talismans]. When the number of [Talismans] exceeds the limit, the earliest obtained [Talisman] will be removed. When consuming [Talisman] after using [Thunder's Oracle Peal], [Myriad Things Thrive], or [Fortune's Clarity], each [Talisman] has a chance to be retained based on Zhiliu's Melee Weapon Trigger Probability.",
+        "stats": {}
+      }
+    ]
+  }
+]

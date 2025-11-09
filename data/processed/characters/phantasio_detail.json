@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Phantasio",
+    "slug": "phantasio",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/phantasio/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/phantasio_v1.png",
+    "profile": {
+      "gender": "Male",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "9 October",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [],
+    "base_stats": [
+      {
+        "stat": "Umbro ATK",
+        "level_1": "21",
+        "level_max": "395.39"
+      },
+      {
+        "stat": "HP",
+        "level_1": "130",
+        "level_max": "1632"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "130",
+        "level_max": "1632"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "330",
+        "level_max": "330"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "180",
+        "level_max": "180"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "112.5%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Recitativo",
+        "type": "Skill - DMG",
+        "description": "Deals Umbro Damage to enemies in front and inflict 5 stacks of [Adagio] on them, up to 10 stacks. The remaining time of the effect is refreshed with each new stack gained. When in [Bestial Fury] state, this skills is replaced with [Aria]. [Aria]: Dashes forward, dealing Umbro Damage to enemies along the path, and gains [Presto]. [Presto]: Increases Skill Range and grants immunity to Hitsun.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "20",
+            "level_max": "18"
+          },
+          "DMG": {
+            "level_1": "164.0%",
+            "level_max": "479.0%"
+          },
+          "DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "[Adagio] Duration": {
+            "level_1": "8s",
+            "level_max": "8s"
+          },
+          "[Aria] Sanity Cost": {
+            "level_1": "20",
+            "level_max": "18"
+          },
+          "[Aria] DMG": {
+            "level_1": "249%",
+            "level_max": "753%"
+          },
+          "[Presto] Skill Range Boost": {
+            "level_1": "30%",
+            "level_max": "30%"
+          },
+          "[Presto] Duration": {
+            "level_1": "5s",
+            "level_max": "5s"
+          }
+        }
+      },
+      {
+        "name": "Curtain Up",
+        "type": "Ultimate - Buff",
+        "description": "Enters [Bestial Fury] state and continuously consumes Sanity; when Sanity drops to 0, [Bestial Fury] state ends. Melee Attack is replaced with [Furious Claws], performing up to four consecutive attacks to deal Umbro Damage. When used in the air, Phantasio performs Plunging Attack and deals Umbro Damage to enemies within range. Ranged Attack is replcaed with [Mounful Howl], firing an energy beam to deal Umbro Damage. When the 3-hit of [Furious Claws] and [Mounful Howl] deal damage, triggers [Duo]; when the 4-hit of [Furious Claws] and the Plunging Attack deal damage, triggers [Fermata]. [Duo]: Grants a certain amount of [Immersion]. This effect can only be triggered once every 0.1 seconds. [Fermata]: Increases Phantasio's damage based on the target's [Adagio] stacks, then removes all [Adagio] stacks. When there are 10 [Adagio] stacks on the target, restores Phantasio's Sanity and grants a certain amount of [Immersion]. This effect can only be triggered once every attack.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "9"
+          },
+          "Sanity Cost per Second": {
+            "level_1": "30",
+            "level_max": "27"
+          },
+          "[Furious Claws] 1-Hit DMG": {
+            "level_1": "725%",
+            "level_max": "2174%"
+          },
+          "[Furious Claws] 2-Hit DMG": {
+            "level_1": "725%",
+            "level_max": "2174%"
+          },
+          "[Furious Claws] 3-Hit DMG": {
+            "level_1": "486%",
+            "level_max": "1449%"
+          },
+          "[Furious Claws] 4-Hit DMG": {
+            "level_1": "1872%",
+            "level_max": "5616%"
+          },
+          "[Furious Claws] Plunge DMG": {
+            "level_1": "1935%",
+            "level_max": "5796%"
+          },
+          "[Furious Claws] DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "[Mournful Howl] Beam DMG": {
+            "level_1": "428%",
+            "level_max": "1274%"
+          },
+          "[Mournful Howl] Beam Length": {
+            "level_1": "20m",
+            "level_max": "20m"
+          },
+          "[Immersion] Granted by [Duo]": {
+            "level_1": "0.6% Max Sanity",
+            "level_max": "0.6% Max Sanity"
+          },
+          "DMG Boost per stack of [Adagio]": {
+            "level_1": "91%",
+            "level_max": "280%"
+          },
+          "[Fermata] Sanity Recovery": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "[Immersion] Granted by [Fermata]": {
+            "level_1": "6% Max Sanity",
+            "level_max": "6% Max Sanity"
+          }
+        }
+      },
+      {
+        "name": "On Stage",
+        "type": "Passive",
+        "description": "When in [Bestial Fury] state, increases Attack based on Phantasio's Max Sanity. Phantasio gains [Immersion] by using skills, with the [Immersion] cap equal to Phantasio's Max Sanity. Using [Recitativo] or [Aria] gains a certain amount of [Immersion]; when in [Bestial Fury] state, continuously gains [Immersion] per second. When [Immersion] reaches its maximum in [Bestial Fury] state, Phantasio enters [Bestial Fury: Devotion] state. [Bestial Fury: Devotion]: When in [Bestial Fury: Devotion] state, continuously consumes [Immersion] instead of Sanity to maintain the [Bestial Fury] state and increases Movement Speed, Skill Speed and ATK based on Phantasio's Max Sanity. When in [Bestial Fury: Devotion] state, prevents [Immersion] gain from sustaining Beast Form.",
+        "stats": {
+          "[Bestial Fury] ATK Boost": {
+            "level_1": "25% Max Sanity",
+            "level_max": "70% Max Sanity"
+          },
+          "[Bestial Fury] Max ATK Boost": {
+            "level_1": "315",
+            "level_max": "315"
+          },
+          "[Immersion] Granted by [Recitativo]": {
+            "level_1": "20",
+            "level_max": "20"
+          },
+          "[Immersion] Granted by [Aria]": {
+            "level_1": "20",
+            "level_max": "20"
+          },
+          "[Immersion] Granted by [Bestial Fury] per second": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "[Bestial Fury: Devotion] ATK Boost": {
+            "level_1": "25% Max Sanity",
+            "level_max": "75% Max Sanity"
+          },
+          "[Bestial Fury: Devotion] Max ATK Boost": {
+            "level_1": "315",
+            "level_max": "315"
+          },
+          "[Bestial Fury: Devotion] Immersion Cost per second": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "Skill SPD Boost": {
+            "level_1": "30%",
+            "level_max": "30%"
+          }
+        }
+      }
+    ]
+  }
+]

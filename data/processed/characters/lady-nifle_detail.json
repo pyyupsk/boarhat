@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Lady Nifle",
+    "slug": "lady-nifle",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/lady-nifle/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/lady-nifle_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "The Elysian Church",
+      "birthday": "29 February",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck - more likely to receive unexpected gains"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Lumino ATK",
+        "level_1": "21",
+        "level_max": "395.39"
+      },
+      {
+        "stat": "HP",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "255",
+        "level_max": "255"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "180",
+        "level_max": "180"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Lunar Hunt",
+        "type": "Skill - DMG",
+        "description": "Creates 1 [Lunar Hunt] and replaces this skill with [Solar Eclipse]. [Lunar Hunt]: Deals Umbro Damage to all enemies within range upon spawn and reduces their Movement Speed. [Solar Sclipse]: Creates 1 [Solar Eclipse] and replaces this skill with [Lunar Hunt]. [Lunar Hunt]: Deals Lumino Damage to all enemies within range when summoned and reduces their ATK.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "12",
+            "level_max": "12"
+          },
+          "[Lunar Hunt] DMG": {
+            "level_1": "1132%",
+            "level_max": "3400%"
+          },
+          "[Lunar Hunt] DMG Radius": {
+            "level_1": "10m",
+            "level_max": "13m"
+          },
+          "[Lunar Hunt] Decreases Movement SPD by": {
+            "level_1": "30%",
+            "level_max": "30%"
+          },
+          "[Lunar Hunt] Decreases Movement SPD for": {
+            "level_1": "3s",
+            "level_max": "3s"
+          },
+          "[Solar Eclipse] DMG": {
+            "level_1": "1132%",
+            "level_max": "3400%"
+          },
+          "[Solar Eclipse] DMG Radius": {
+            "level_1": "3m",
+            "level_max": "3.9m"
+          },
+          "[Solar Eclipse] Decreases ATK by": {
+            "level_1": "25%",
+            "level_max": "25%"
+          },
+          "[Solar Eclipse] Decreases ATK for": {
+            "level_1": "3s",
+            "level_max": "3s"
+          }
+        }
+      },
+      {
+        "name": "Misty Sea Requiem",
+        "type": "Ultimate - Buff",
+        "description": "Enters [Funeral Rite] status. Upon entry, if the user's Skill Range exceeds 100%, the excess is converted into Skill Damage at a fixed ratio, and Skill Range is reduced to 100% for the duration. While under [Funeral Rite], gains Trigger Probability Increase for ranged weapons; [Lunar Hunt] and [Solar Eclipse] cost no sanity; [Lunar Hunt] pulls enemies toward its centre; [Solar Eclipse] deals increased damage. [Funeral Rite] ends after a set duration or after casting a total of 6 [Lunar Hunt] and / or [Solar Eclipse].",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "120",
+            "level_max": "120"
+          },
+          "Trigger Probability Boost": {
+            "level_1": "60%",
+            "level_max": "60%"
+          },
+          "[Funeral Rite] Duration": {
+            "level_1": "12s",
+            "level_max": "12s"
+          },
+          "[Funeral Rite] Skill Range Conversion Percentage": {
+            "level_1": "100%",
+            "level_max": "100%"
+          },
+          "Enhanced [Solar Eclipse] DMG Radius": {
+            "level_1": "2264%",
+            "level_max": "6800%"
+          },
+          "Enhanced [Lunar Hunt] DMG Radius": {
+            "level_1": "10m",
+            "level_max": "13m"
+          }
+        }
+      },
+      {
+        "name": "Interwoven Cries",
+        "type": "Passive",
+        "description": "Based on user's Trigger Probability for ranged weapons, casting [Lunar Hunt] has a chance to also spawn [Solar Eclipse] at the same location, which in turn may spawn another [Lunar Hunt]. [Solar Eclipse and [Lunar Hunt] summoned this way will not be enhanced by [Misty Sea Requiem].",
+        "stats": {
+          "[Interwoven Cries] Effect Trigger Probability": {
+            "level_1": "14% Ranged Weapon Trigger Probability",
+            "level_max": "50% Ranged Weapon Trigger Probability"
+          },
+          "[Interwoven Cries] Effect Max Trigger Probability": {
+            "level_1": "50%",
+            "level_max": "50%"
+          }
+        }
+      }
+    ]
+  }
+]

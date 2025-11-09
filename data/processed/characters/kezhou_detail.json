@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Kezhou",
+    "slug": "kezhou",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/kezhou/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/kezhou_v1.png",
+    "profile": {
+      "gender": "Male",
+      "birthplace": "Huaxu",
+      "birthday": "31 October",
+      "allegiance": "Outer Peaks"
+    },
+    "traits": [
+      {
+        "name": "Adventurer",
+        "effect": "-"
+      },
+      {
+        "name": "Impression : Chaos",
+        "effect": "-"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "-"
+      }
+    ],
+    "base_stats": [],
+    "skills": [
+      {
+        "name": "Drift of Youth",
+        "type": "Skill - DMG",
+        "description": "Deals Lumino Damage to enemies within range 3 times and increases Kezhou's Ranged Weapon Attack Speed. While in [Aspect Manifestation] state, increases Kezhou's Melee Weapon Attack Speed, during which Kezhou is immune to Hitsun when taking damage.",
+        "stats": {}
+      },
+      {
+        "name": "Lightswords Slice Starry Streams",
+        "type": "Ultimate - Buff",
+        "description": "Enters [Aspect Manifestation] state and summons [Edges of All Times] to rain from sky, dealing Lumino Damage to enemies within range. While in [Aspect Manifestation] state, Kezhou's Melee Weapon becomes [Phanosword]. When triggering Bonus Effect using [Phanosword], generates 1 [Phanoplume]. While in [Aspect Manifestation] state, this skill is replaced with [Feather Chase Dust in Dreams]. [Lightswords Slice Starry Streams] consumes less Sanity based on Kezhou's [Sword Intent] points. At max [Sword Intent] points, the Sanity Cost of [Lightswords Slice Starry Streams] is further redruced by an additional 20 points. [Feathers Chase Dust in Dreams] consumes less sanity based on Kezhou's [String Intent]. At max [String Intent] points, the Sanity Cost of [Feathers Chase Dust in Dreams] is further reduced by an additional 20 points. [Phanosword]: Inherits all stats from Kezhou's melee weapon and gain increased Attack Range. [Phanosword] has Normal Attack modes for Sword, Greatsword, Polearm, and Dual Blades. After executing the final hit of [Phanosword], it switches to a random attack mode and launches all [Phanoplumes]. [Phanoplume]: Kezhou can have a maximum of 7 [Phanoplumes] at the same time. When launched, each [Phanoplume] selects a random enemy to orbit and homes towards them to attack, dealing Lumino Damage to enemies along the path.. After attacking enemies 4 times, the [Phanoplume] dissipates. Target hit by [Phanoplume] take additional damage, which is equivalent to a certain eprcentage of the DoT of Bonus Effect: Lumino multiplied by Kezhou's Melee Weapon Trigger Probability. [Feathers Chase Dust in Dreams]: Ends [Aspect Manifestation] state and deals Lumino Damage to enemies in front.",
+        "stats": {}
+      },
+      {
+        "name": "Life Drifts, Tides Rearrange",
+        "type": "Passive",
+        "description": "initially possesses 50 points each of [Sword intent] and [String Intent], both up to 100 points. Increases Melee Weapon Damage and Melee Weapon Trigger Probability by a certain percentage of Kezhou's [Sword Intent] points. Increases Ranged Weapon Damage and Ranged Weapon Trigger Probability by a certain percentage of Kezhou's [String Intent] points. Every time Kezhou deals ranged weapon damage, 1 [String Intent] point is converted to 1 [Sword Intent] point. Every time Kezhou deals melee weapon damage, 1 [Sword intent] point is converted into 1 [String Intent] point.",
+        "stats": {}
+      }
+    ]
+  }
+]

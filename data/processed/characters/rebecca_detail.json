@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Rebecca",
+    "slug": "rebecca",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/rebecca/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/rebecca_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Republic of Luca",
+      "birthday": "20 March",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Piscator",
+        "effect": "Skilled in fishing"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Hydro ATK",
+        "level_1": "25",
+        "level_max": "470.71"
+      },
+      {
+        "stat": "HP",
+        "level_1": "100",
+        "level_max": "1255"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "100",
+        "level_max": "1255"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "252",
+        "level_max": "252"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "150",
+        "level_max": "150"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Aurelian Caress",
+        "type": "Skill - Summon",
+        "description": "Summons 1 [Aurelia Aurita]. A maximum of 3 can exist at same time. [Aurelia Aurita]: Inherits 100% of Rebecca's stats, continuously dealing Hydro Damage to nearby enemies.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "35",
+            "level_max": "35"
+          },
+          "Duration": {
+            "level_1": "14s",
+            "level_max": "14s"
+          },
+          "Summon DMG": {
+            "level_1": "769%",
+            "level_max": "2308%"
+          },
+          "Summon DMG Radius": {
+            "level_1": "10m",
+            "level_max": "13m"
+          }
+        }
+      },
+      {
+        "name": "Lada Lovedew",
+        "type": "Ultimate - DMG",
+        "description": "Deals Hydro Damage to nearby enemies; the damage is increased based on the number of [Poison of Love] stacks inflicted on the enemies.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "75",
+            "level_max": "75"
+          },
+          "DMG": {
+            "level_1": "924%",
+            "level_max": "2769%"
+          },
+          "DMG Boost per stack of [Poison of Love]": {
+            "level_1": "358%",
+            "level_max": "1078%"
+          },
+          "DMG Radius": {
+            "level_1": "20m",
+            "level_max": "26m"
+          }
+        }
+      },
+      {
+        "name": "Truelove Trial",
+        "type": "Passive",
+        "description": "When dealing damage with a melee weapon or [Aurelia Aurita]'s attack, inflict 1 stack of [Poison of Love] on the target, up to 6 stacks. [Poison of Love]: Deals Hydro Damage once every 2s. When defeated, enemies inflicted with [Poison of Love] transfer their [Poison of Love] to nearby enemies based on the current stack count and remaining duration.",
+        "stats": {
+          "[Poison of Love] Duration": {
+            "level_1": "6s",
+            "level_max": "6s"
+          },
+          "[Poison of Love] DMG": {
+            "level_1": "71%",
+            "level_max": "224%"
+          },
+          "[Poison of Love] Transfer Radius": {
+            "level_1": "10m",
+            "level_max": "13m"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Lynn",
+    "slug": "lynn",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/lynn/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/lynn_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "17 April",
+      "allegiance": "The 13th Legion"
+    },
+    "traits": [
+      {
+        "name": "Impression: Chaos",
+        "effect": "Value spontaneity and personal freedom over oder"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened effeciency, reducing completion time."
+      },
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in combat"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Pyro ATK",
+        "level_1": "23",
+        "level_max": "433.05"
+      },
+      {
+        "stat": "HP",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "240",
+        "level_max": "240"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "150",
+        "level_max": "150"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deadly Blossom",
+        "type": "Skill - DMG",
+        "description": "Deals Pyro Damage to enemies in front and inflict [Laceration]. [Laceration]: When under the influence of [Laceration], every time the enemy takes ranged weapon damage, the [Lacerated Wound] is increased by 1. When the [Laceration] duration ends, deals Pyro Damage equivalent to [Lacerated Wound] count x [Laceration] dMG to the enemy once.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "12",
+            "level_max": "12"
+          },
+          "DMG": {
+            "level_1": "196.0%",
+            "level_max": "583.0%"
+          },
+          "DMG Radius": {
+            "level_1": "20m",
+            "level_max": "20m"
+          },
+          "[Laceration] DMG": {
+            "level_1": "66%",
+            "level_max": "192%"
+          },
+          "[Laceration Wound] Count Cap": {
+            "level_1": "10",
+            "level_max": "10"
+          }
+        }
+      },
+      {
+        "name": "Gunpowder Revelry",
+        "type": "Ultimate - Buff",
+        "description": "Switches the ranged weapon to [Hansel and Gretel]. In this state, Lynn can shoot and use skills, but can only move using [Deadly Blossom]. Shooting deals damage to all enemies in front, during which Lynn gains 1 stack that increases Lynn's ATK Speed every 0.2s, up to 35 stacks. Using [Hansel and Gretel] continuously consumes Sanity, during which Lynn is immune to Hitsun when taking damage. When Sanity drops to 0 or the skill is used again, sheathes [Hansel and Gretel].",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "Sanity Cost per Second": {
+            "level_1": "20",
+            "level_max": "18"
+          },
+          "Shooting DMG": {
+            "level_1": "127%",
+            "level_max": "253%"
+          },
+          "Max Firing Range": {
+            "level_1": "50m",
+            "level_max": "50m"
+          },
+          "ATK SPD Boost per stack": {
+            "level_1": "3%",
+            "level_max": "3%"
+          }
+        }
+      },
+      {
+        "name": "Tactical Rapid Fire",
+        "type": "Passive",
+        "description": "When not shooting, Lynn gains 1 stack of [Preload] per second, up to 6 stacks. When shooting, consumes al stacks of [Preload] to gain [Supressing Fire] for a period of time. [Supressing Fire]: Increases the damage based on the number of the consumsed [Preload] stacks. Cannot gain [Preload] stack during [Suppresing Fire].",
+        "stats": {
+          "[Suppressing Fire] Duration": {
+            "level_1": "6s",
+            "level_max": "6.9s"
+          },
+          "DMG Boost per stack": {
+            "level_1": "5.1%",
+            "level_max": "15%"
+          }
+        }
+      }
+    ]
+  }
+]

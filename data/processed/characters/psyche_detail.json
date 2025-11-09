@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Psyche",
+    "slug": "psyche",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/psyche/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/psyche_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "22 June",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Gleaner",
+        "effect": "Skilled in gathering resources"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Anemo ATK",
+        "level_1": "28",
+        "level_max": "351.46"
+      },
+      {
+        "stat": "HP",
+        "level_1": "70",
+        "level_max": "879"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "140",
+        "level_max": "1757"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "252",
+        "level_max": "252"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "150",
+        "level_max": "150"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "120%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "5%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Chrysalis Dreamweave",
+        "type": "Skill - DMG",
+        "description": "Creates 1 [Phantasm] and then flashes forward. This skill can be used at any time without interrupting Psyche's current action. In [Flamboyance] state, this skill is replaced with [Phototaxis]. [Phantasm]: Once created, the Phantasm continuously slows down nearby enemies. After 5 seconds, it deals Anemo Damage to nearby enemies and vanishes. when a new [Phantasm] is created, the existing [Phantasm] immediately deals Anemo damage and vanishes. [Phototaxis]: charges forward in the air and releases 16 [Ethereal Powders]. The [Ethereal Powders] automatically lock onto 1 enemy, dealing Anemo Damage and inflicting 1 stack of [Powder Stigma], up to 12 stacks. [Powder Stigma]: When a targer inflicted with [Powder stigma] takes Ranged Weapon DMG from Psyche, 1 stack of [Powder Stigma] is consumed to deal Anemo Damage.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "[Phantasm] SPD Decrease": {
+            "level_1": "20%",
+            "level_max": "20%"
+          },
+          "[Phantasm] DMG": {
+            "level_1": "68.1%",
+            "level_max": "244.8%"
+          },
+          "[Phantasm] Effect Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "[Phantasm] Sanity cost": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "[Ethereal Powder] DMG": {
+            "level_1": "42.4%",
+            "level_max": "152.4%"
+          },
+          "[Powder Stigma] DMG": {
+            "level_1": "12.7%",
+            "level_max": "44.4%"
+          },
+          "[Powder Stigma] Duration": {
+            "level_1": "10s",
+            "level_max": "10s"
+          }
+        }
+      },
+      {
+        "name": "Fluorescent Eclosion",
+        "type": "Ultimate - Buff",
+        "description": "Enters [Flamboyance] state and gains the ability to fly. When in [Flamboyance] state, Psyche can only use skills and shoot. [Flamboyance] state continuously consumes Sanity, and when Sanity drops to 0 or this skill is used again, [Flamboyance] state ends. When Psyche's HP Percentage is above 15%, [Flamboyance] state consumes HP instead of Sanity. The consumed HP will be converted into Ultra Shield at a certain percentage.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "Sanity Cost per Second": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "Shooting DMG": {
+            "level_1": "66.4%",
+            "level_max": "159.6%"
+          },
+          "Shooting DMG Radius": {
+            "level_1": "3m",
+            "level_max": "3m"
+          },
+          "HP Loss per second": {
+            "level_1": "5% Max HP",
+            "level_max": "5% Max HP"
+          },
+          "Ultra Shield Conversion Percentage": {
+            "level_1": "150%",
+            "level_max": "150%"
+          }
+        }
+      },
+      {
+        "name": "Amberlight",
+        "type": "Passive",
+        "description": "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Damage Boost, or Resolve Boost. Increases Psyche's damage for each buff she gains, up to 12 buffs.",
+        "stats": {
+          "ATK Boost": {
+            "level_1": "7.9%",
+            "level_max": "25%"
+          },
+          "Skill DMG Boost": {
+            "level_1": "7.9%",
+            "level_max": "25%"
+          },
+          "Resolve Boost": {
+            "level_1": "3.7%",
+            "level_max": "10%"
+          },
+          "Duration": {
+            "level_1": "10s",
+            "level_max": "10s"
+          },
+          "DMG Boost Per Buff": {
+            "level_1": "1.2%",
+            "level_max": "3%"
+          }
+        }
+      }
+    ]
+  }
+]

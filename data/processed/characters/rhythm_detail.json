@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Rhythm",
+    "slug": "rhythm",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/rhythm/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/rhythm_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "19 August",
+      "allegiance": "The 6th Legion"
+    },
+    "traits": [
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in Combat"
+      },
+      {
+        "name": "Impression: Morality",
+        "effect": "Upholds Justice and integrity"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened effeciency, reducing completion time"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Electro ATK",
+        "level_1": "22",
+        "level_max": "412.22"
+      },
+      {
+        "stat": "HP",
+        "level_1": "94",
+        "level_max": "1180"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "94",
+        "level_max": "1180"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "276",
+        "level_max": "276"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "150",
+        "level_max": "150"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Volt Rush",
+        "type": "Skill - DMG",
+        "description": "Rhythm leaps forward, dealing Electro Damage to enemies along the path. When the [Electric Energy] point is no less than 30, consume 30 points to increase the leap speed and [Volt Rush]'s damage, and grants an effect that increases the damage dealt by Rhythm.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "20",
+            "level_max": "20"
+          },
+          "DMG": {
+            "level_1": "288.0%",
+            "level_max": "1162.0%"
+          },
+          "[Volt Rush] DMG Boost": {
+            "level_1": "650%",
+            "level_max": "1937%"
+          },
+          "DMG Boost": {
+            "level_1": "90%",
+            "level_max": "90%"
+          },
+          "DMG Boost Duration": {
+            "level_1": "9s",
+            "level_max": "9s"
+          }
+        }
+      },
+      {
+        "name": "Electro Vortex",
+        "type": "Ultimate - Buff",
+        "description": "Deals Electro Damage to enemies within range and enters [Electro Surge] state, during which it continuously consumes Sanity.[Electro Surge] ends when Sanity drops to 0 or when the skill is used again. [Electro Surge]: Increases Movement Speed for Rhythm and her nearby teammate(s). Deals Electro Damage to 1 random enemy within range per second and alternately inflicts [Positive Charge] and [Negative Charge] on them, prioritizing enemies without [Electric Charge]. [Electric Charge]: Target with [Positive Charge] selects 1 random target with [Negative Charge] within range every 3s, both being pulled towards the midpoint between their positions and taking Electro Damage. If no [Negative Charge] target are around, selects 1 random target to take Electro Damage together. When a target with [Electric Charge] is inflicted with the same charge type again, the duration of the [Electric Charge] on them is refreshed, and they cannot be applied with the opposite [Electric Charge] type.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "Sanity Cost per Second": {
+            "level_1": "20",
+            "level_max": "20"
+          },
+          "DMG": {
+            "level_1": "413%",
+            "level_max": "1250%"
+          },
+          "DMG Radius": {
+            "level_1": "10m",
+            "level_max": "13m"
+          },
+          "Movement SPD Boost": {
+            "level_1": "25%",
+            "level_max": "25%"
+          },
+          "[Electro Surge] Effect Radius": {
+            "level_1": "50m",
+            "level_max": "50m"
+          },
+          "[Electro Surge] DMG": {
+            "level_1": "126%",
+            "level_max": "387%"
+          },
+          "[Positive Charge] Effect Radius": {
+            "level_1": "20m",
+            "level_max": "20m"
+          },
+          "[Electric Charge] DMG": {
+            "level_1": "1243%",
+            "level_max": "3718%"
+          },
+          "[Electric Charge] Duration": {
+            "level_1": "6s",
+            "level_max": "6s"
+          }
+        }
+      },
+      {
+        "name": "Tactical Preservation",
+        "type": "Passive",
+        "description": "When consuming Sanity, converts a percentage of consumed Sanity into [Electric Energy]. The upper limit of [Electric Energy] is equal to max Sanity.",
+        "stats": {
+          "Conversion Percentage": {
+            "level_1": "37%",
+            "level_max": "100%"
+          }
+        }
+      }
+    ]
+  }
+]

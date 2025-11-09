@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Outsider",
+    "slug": "outsider",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/outsider/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/outsider_v1.png",
+    "profile": {
+      "gender": "Male",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "1 April",
+      "allegiance": "The Noctoyagers"
+    },
+    "traits": [
+      {
+        "name": "Piscator",
+        "effect": "Skilled in fishing"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handle tasks with heightened effeciency, reducing completion time"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Anemo ATK",
+        "level_1": "20",
+        "level_max": "376.57"
+      },
+      {
+        "stat": "HP",
+        "level_1": "85",
+        "level_max": "1067"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "195",
+        "level_max": "2448"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "285",
+        "level_max": "285"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "120",
+        "level_max": "120"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Stealthy Prowl",
+        "type": "Skill - Buff",
+        "description": "Enter [Stealth] state and exits [Relentless Hunt] state. Generate 2 [Fang Spikes] to attack nearby enemies when exiting [Stealth] state or using [Stealthy Prowl] again in [Stealth] state. [Stealth]: When in [Stealth] state, Outsider cannot be detected by enemies, and taking damage will not exit [Stealth]. Launching attack or using [Predator's Pounce] will exit [Stealth] state.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "[Stealth] Duration": {
+            "level_1": "7s",
+            "level_max": "18.4s"
+          }
+        }
+      },
+      {
+        "name": "Predator's Pounce",
+        "type": "Ultimate - Buff",
+        "description": "Retracts all [Fang Spikes] and enters [Relentless Hunt] state. For each [Fang Spike] retracted, outsider loses certain HP, which is converted into an equivalent amount of Ultra Shield, and it additionally extends the duration of [Relentless Hunt] state. When losing HP due to this effect, the minimum HP will not drop below 1. [Relentless Hunt]: When in [Relentless Hunt] state, Outsider is immune to Hitstun and gain weapon attack Speed boost and Resolve boost. Outsider cannot receive Healing in this state, and any Healing received is converted into an equivalent amount of Ultra Shield.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "60",
+            "level_max": "60"
+          },
+          "[Relentless Hunt] Duration": {
+            "level_1": "5s",
+            "level_max": "5.75s"
+          },
+          "Each [Fang Spike] extends [Relentless Hunt] Duration by": {
+            "level_1": "2s",
+            "level_max": "2.3s"
+          },
+          "[Relentless Hunt] Max Extended Duration": {
+            "level_1": "50s",
+            "level_max": "50s"
+          },
+          "HP Lost for Each [Fang Spike] Retracted": {
+            "level_1": "10% Max HP",
+            "level_max": "10% Max HP"
+          },
+          "ATK SPD Boost": {
+            "level_1": "18%",
+            "level_max": "45%"
+          },
+          "Resolve Boost": {
+            "level_1": "9%",
+            "level_max": "18%"
+          }
+        }
+      },
+      {
+        "name": "Fang for Fang",
+        "type": "Passive",
+        "description": "When taking damage, Outsider generates 1 [Fang Spike] to attack the damage dealer. This effect can only be triggered once per second. [Fang Spike]: When generated, [Fang Spike] flies toward its target, dealing Anemo Damage to enemies along the path and inflicting [Throatcutter] on them. After flying for a period of time, [Fang Spike] falls and remains on the ground. A maximum of 10 [Fang Spikes] can exist at the same time. [Throatcutter]: Increases damage taken from Outsider.",
+        "stats": {
+          "DMG Taken from [Outsider] Boost": {
+            "level_1": "18%",
+            "level_max": "54%"
+          },
+          "[Throatcutter] Duration": {
+            "level_1": "15s",
+            "level_max": "17.25s"
+          },
+          "[Fang Spike] DMG": {
+            "level_1": "675%",
+            "level_max": "2016%"
+          }
+        }
+      }
+    ]
+  }
+]

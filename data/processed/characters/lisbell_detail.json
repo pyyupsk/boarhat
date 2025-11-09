@@ -1,0 +1,208 @@
+[
+  {
+    "name": "Lisbell",
+    "slug": "lisbell",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/lisbell/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/lisbell_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "The Elysian Church",
+      "birthday": "8 August",
+      "allegiance": "The Elysian Chuch"
+    },
+    "traits": [
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in combat"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Lumino ATK",
+        "level_1": "24",
+        "level_max": "451.88"
+      },
+      {
+        "stat": "HP",
+        "level_1": "90",
+        "level_max": "1130"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "90",
+        "level_max": "1130"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "240",
+        "level_max": "240"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "150",
+        "level_max": "150"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "In the Name of Patience",
+        "type": "Skill - DMG",
+        "description": "Lunges forward, dealing Lumino AOE DMG 3 times along the path, then slasms down to deal more Lumino AOE damage.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "15",
+            "level_max": "15"
+          },
+          "DMG": {
+            "level_1": "274% x 3 + 667%",
+            "level_max": "814% x 3 + 1999%"
+          },
+          "DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          }
+        }
+      },
+      {
+        "name": "That's It!",
+        "type": "Ultimate - Buff",
+        "description": "Switches the user's melee weapon to [Samael], the skill is used again to withdraw [Samael]. Normal Attacks with [Samael] chain up to 4 hits. While wielding [Samael], hold attack to charge - Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s. Releasing attack, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AOE DMG to enemies ahead. [Impatience]: Grants immunity to Hitstun and reduces Damage Taken.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "Skill DMG": {
+            "level_1": "481%",
+            "level_max": "1435%"
+          },
+          "Skill DMG Radius": {
+            "level_1": "10m",
+            "level_max": "10m"
+          },
+          "1-Hit DMG": {
+            "level_1": "346%",
+            "level_max": "697%"
+          },
+          "2-Hit DMG": {
+            "level_1": "409%",
+            "level_max": "814%"
+          },
+          "3-Hit DMG": {
+            "level_1": "200% x 2",
+            "level_max": "407% x 2"
+          },
+          "4-Hit DMG": {
+            "level_1": "189% + 556%",
+            "level_max": "378% + 1133%"
+          },
+          "Normal Hit DMG Radius": {
+            "level_1": "3m",
+            "level_max": "3m"
+          },
+          "Plunge DMG": {
+            "level_1": "51%",
+            "level_max": "51%"
+          },
+          "Sliding Attack DMG": {
+            "level_1": "73%",
+            "level_max": "73%"
+          },
+          "Charged Attack DMG": {
+            "level_1": "848%",
+            "level_max": "1703%"
+          },
+          "Charged Attack DMG : Level S": {
+            "level_1": "179% + 848%",
+            "level_max": "359% + 1703%"
+          },
+          "Charged Attack AOE": {
+            "level_1": "6m x 6m",
+            "level_max": "6m x 6m"
+          },
+          "Continuously Consumes Sanity While Charging": {
+            "level_1": "25",
+            "level_max": "25"
+          },
+          "Sanity Cost While Charging": {
+            "level_1": "15",
+            "level_max": "15"
+          },
+          "Gain Combo Points While Charging": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "Reduced Damage taken under [Impactience]": {
+            "level_1": "30%",
+            "level_max": "30%"
+          }
+        }
+      },
+      {
+        "name": "Hmph!!",
+        "type": "Passive",
+        "description": "When Combo Level increases, deals Lumino DMG to nearby enemies and enhances [Samael]. At Combo Levels C / B / A / S, [Samael] gains enhancement Lv.1 / 2 / 3 / 4 respectively. If combo Level drops, the current enhancement level persists for a short time. While [Samael] is enhanced, the user's Consonance Weapon gains increased ATK Range dna Trigger Probability based on the enhancement level.",
+        "stats": {
+          "DMG": {
+            "level_1": "204%",
+            "level_max": "600%"
+          },
+          "DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "+Weapon Attack Range": {
+            "level_1": "1.2 x [Samael] enhancement level",
+            "level_max": "1.2 x [Samael] enhancement level"
+          },
+          "Trigger Probability Boost": {
+            "level_1": "14% x [Samael] enhancement level",
+            "level_max": "50% x [Samael] enhancement level"
+          },
+          "[Samael] Enhancement Duration": {
+            "level_1": "12s",
+            "level_max": "13.8s"
+          }
+        }
+      }
+    ]
+  }
+]

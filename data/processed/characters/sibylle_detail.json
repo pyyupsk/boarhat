@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Sibylle",
+    "slug": "sibylle",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/sibylle/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/sibylle_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "5 September",
+      "allegiance": "The 13th Legion"
+    },
+    "traits": [
+      {
+        "name": "Piscator",
+        "effect": "Skill in Fishing"
+      },
+      {
+        "name": "Impression: Benefit",
+        "effect": "Prioritises gains and trade-offs"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handle tasks with heightened effeciency, reducing completion time"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Electro ATK",
+        "level_1": "13",
+        "level_max": "163.18"
+      },
+      {
+        "stat": "HP",
+        "level_1": "185",
+        "level_max": "3483"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "120",
+        "level_max": "1506"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "345",
+        "level_max": "345"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "200",
+        "level_max": "200"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "120%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Divine Conqueror",
+        "type": "Skill - DMG",
+        "description": "Deals Electro Damage to enemies within range in front and creates a field of [Legion's Punishment] at the locations. [Legion's Punishment]: When created and after a 1.5s delay, [Legion's Punishment] consumes a certain amount of [Might of Thunder] every 0.4s to deal Electro Dmage to 1 random enemy within range, lasting up to 10s. When [Might of Thunder] depleted, the [Legion's Punishment] dissipates. A maximum of 3 fields can exist at the same time.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "[Divine Conqueror] DMG": {
+            "level_1": "29% Max HP + 33",
+            "level_max": "110.4% Max HP + 126"
+          },
+          "[Divine Conqueror] DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "[Legion's Punishment] DMG": {
+            "level_1": "26% Max HP +26",
+            "level_max": "85.2% Max HP + 96"
+          },
+          "[Legion's Punishment] Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "[Might of Thunder] Cost": {
+            "level_1": "20",
+            "level_max": "20"
+          }
+        }
+      },
+      {
+        "name": "Stormcaller",
+        "type": "Ultimate - Summon",
+        "description": "Summons [Chaotic Thunderorb]. A maximum of 1 can exist at the same time. Consumes [Might of Thunder] to summon an enhanced [Chaotic Thunderorb]. The interval for the enhanced [Chaotic Thunderorb] to trigger [Devastating Storm] is reduced to 2s, and its Link Damage is increased. [Chaotic Thunderorb]: Inherits a certain eprcentage of Sibylle's Max HP with 0 DEF, and is considered an enemy unit. Once summoned, [Chaotic Thunderorb] calls forth [Devastating Storm] once every 3s and links to the furthest enemies within range. It links 1 more enemy per second, up to 10 enemies, dealing Electro Dmage to the linked targets once per second. When [Chaotic Thunderorb] takes damage, it transfer the damage taken to the linked targets at a certain percentage. [Devastating Storm]: Deals Electro Damage to nearby enemies.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "50",
+            "level_max": "50"
+          },
+          "[Might of Thunder] Cost": {
+            "level_1": "100",
+            "level_max": "100"
+          },
+          "[Chaotic Thunderorb] Duration": {
+            "level_1": "30s",
+            "level_max": "30s"
+          },
+          "[Chaotic Thunderorb] Effect Radius": {
+            "level_1": "10m",
+            "level_max": "10m"
+          },
+          "Link DMG": {
+            "level_1": "2.5% Max HP + 6",
+            "level_max": "8.4% Max HP + 18"
+          },
+          "Enhanced Link DMG": {
+            "level_1": "5.1% Max HP + 8",
+            "level_max": "18% Max HP + 42"
+          },
+          "DMG Taken Transfer": {
+            "level_1": "10%",
+            "level_max": "10%"
+          },
+          "[Devastating Storm] DMG": {
+            "level_1": "26% Max HP + 59",
+            "level_max": "96% Max HP + 222"
+          },
+          "[Devastating Storm] DMG Radius": {
+            "level_1": "10m",
+            "level_max": "10m"
+          }
+        }
+      },
+      {
+        "name": "Might of Thunder",
+        "type": "Passive",
+        "description": "When the damage dealt triggers Bonus Effect, Sibylle gains certain points of [Might of Thunder], up to 300 points. [Divine Conqueror] and [Stormcaller] can be empowered by consuming [Might of Thunder] points.",
+        "stats": {
+          "[Might of Thunder] Point Gained": {
+            "level_1": "6",
+            "level_max": "15"
+          }
+        }
+      }
+    ]
+  }
+]

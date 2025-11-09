@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Hilda",
+    "slug": "hilda",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/hilda/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/hilda_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "19 July",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Tamer",
+        "effect": "-"
+      },
+      {
+        "name": "Impression : Wisdom",
+        "effect": "-"
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "-"
+      }
+    ],
+    "base_stats": [],
+    "skills": [
+      {
+        "name": "Pyrolytic Cleaning",
+        "type": "Skill - DMG",
+        "description": "Commands all [Dirtexpellers] to continuously revolve around Hilda and fire [Hyperthermal Purgejets], during which the duration for all [Light Dirtexpellers] pauses. [Hyperthermal Purgejets] deal Pyro Damage to enemies, and defeating an enemy has a chance to restore Sanity for Hilda during the [Hyperthermal Purgejets] firing.",
+        "stats": {}
+      },
+      {
+        "name": "Wholehearted Service",
+        "type": "Ultimate - Summon",
+        "description": "Deals Pyro Damage to surrounding enemies And inflicts [Disarm] on them. For each target hit, summons 1 [Light Dirtexpeller] around Hilda and resets the duration timer for all [Light Dirtexpellers] Carries 2 [Heavy Dirtexpellers] around. [Heavy Dirtexpellers] and [Light Dirtexpellers] automatically target and shoot nearby enemies once every 3s, dealing Pyro Damage. A Maximum of 6 [Light Dirtexpellers] can exist at the same time. [Disarm]: Permanently disables ranged weapons.",
+        "stats": {}
+      },
+      {
+        "name": "Automatic Sanitizing",
+        "type": "Passive",
+        "description": "Carries 2 [Heavy Dirtexpellers] that automatically target and shoot nearby enemies once every 3s, dealing Pyro Damage. When dodging, Hilda reloads her ranged weapon Magazine to a maximum and gains [Elegant Anger] for a period of time. [Elegant Anger]: Increases the ATK Speed of [Dirtexpeller], the Rotation Speed of [Pyrolytic Cleaning] and the ATK Speed of ranged weapons.",
+        "stats": {}
+      }
+    ]
+  }
+]

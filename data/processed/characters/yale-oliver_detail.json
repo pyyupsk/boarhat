@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Yale and Oliver",
+    "slug": "yale-oliver",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/yale-oliver/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/yale-oliver_v1.png",
+    "profile": {
+      "gender": "Male",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "21 December",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Tamer",
+        "effect": "Skilled in training Geniemons"
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "Quick-witted or highly knowledgeable in specific fields"
+      },
+      {
+        "name": "Astute Mind",
+        "effect": "Adapts quickly and may obtain bonus rewards"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Pyro ATK",
+        "level_1": "21",
+        "level_max": "395.39"
+      },
+      {
+        "stat": "HP",
+        "level_1": "96",
+        "level_max": "1205"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "96",
+        "level_max": "1205"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "288",
+        "level_max": "288"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "180",
+        "level_max": "180"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "120%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Tot Popper",
+        "type": "Skill - DMG",
+        "description": "Drops a bomb named [Tot Popper], assuming the form of either [Tot Popper: Yale's Make] or [Tot Popper: Oliver's Make]. Upon Landing, the bomb explodes after 2s, dealing Pyro Damage to enemies within a cross-shaped area and detonating any other [Tot Poppers] within range. A maximum of 10 [Tot Poppers] can exist at the same time. [Tot Popper: Yale's Make]: When dealing damage, causes greater stance reduction to the target(s). The greater the difference between Yale and Oliver's Skill Range and the Skill Damage proided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Yale's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Yale's Make]. [Tot Popper: Oliver's Make]: Deals higher damage. The greater the difference between Yale and Oliver's Skill Damage and the Skill Range provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Oliver's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Oliver's Make].",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "15",
+            "level_max": "15"
+          },
+          "[Tot Popper: Yale's Make]DMG": {
+            "level_1": "502%",
+            "level_max": "1812%"
+          },
+          "[Tot Popper: Oliver's Make]DMG": {
+            "level_1": "836%",
+            "level_max": "3012%"
+          },
+          "Cross-Shaped Area Length": {
+            "level_1": "15m",
+            "level_max": "15m"
+          },
+          "Cross-Shaped Area Width": {
+            "level_1": "4m",
+            "level_max": "4m"
+          }
+        }
+      },
+      {
+        "name": "Nightmare's Grasp",
+        "type": "Ultimate - DMG",
+        "description": "Generates [Nightmare Lab] around Yale and Oliver. Using the skill again can close [Nightmare Lab] in advance. [Nightmare Lab]: When in the area of [Nightmare Lab], the Movement Speed of enemies within range is decreased. The detonation timer of [Tot Poppers] on the ground are paused, and they won't be detonated by other [Tot Poppers]. When [Nightmare Lab] closes, Detonates all [Tot Poppers] within range and the lab explodes to deal Pyro Damage to the enemies within range. For each [Tot Popper] is detonated, increases the explosion damage of [Nightmare Lab] and restores sanity for Yale and Oliver.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "[Nightmare Lab] Duration": {
+            "level_1": "15s",
+            "level_max": "15s"
+          },
+          "[Nightmare Lab] Radius": {
+            "level_1": "20m",
+            "level_max": "20m"
+          },
+          "[Nightmare Lab] M.SPD Decrease": {
+            "level_1": "40%",
+            "level_max": "40%"
+          },
+          "[Nightmare Lab] Explosion DMG": {
+            "level_1": "695%",
+            "level_max": "2508%"
+          },
+          "Explosion DMG Bonus per [Tot Popper] Detonated": {
+            "level_1": "278%",
+            "level_max": "1003%"
+          },
+          "Sanity Recovery per [Tot Popper] Detonated": {
+            "level_1": "2",
+            "level_max": "2"
+          }
+        }
+      },
+      {
+        "name": "The Rules of Bomb",
+        "type": "Passive",
+        "description": "When a [Tot Popper] is deployed, if its no less than 2 metres above the ground, it deals Pyro Damage ot nearby enemies upon landing.",
+        "stats": {
+          "[Tot Popper] Landing DMG": {
+            "level_1": "213%",
+            "level_max": "752.4%"
+          },
+          "[Tot Popper] Landing Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          }
+        }
+      }
+    ]
+  }
+]

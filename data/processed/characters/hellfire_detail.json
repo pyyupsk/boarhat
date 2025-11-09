@@ -1,0 +1,160 @@
+[
+  {
+    "name": "Hellfire",
+    "slug": "hellfire",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/hellfire/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/hellfire_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "18 August",
+      "allegiance": "Imperial Military Prison"
+    },
+    "traits": [
+      {
+        "name": "Geologist",
+        "effect": "Skilled in Mining"
+      },
+      {
+        "name": "Impression : Morality",
+        "effect": "Upholds justice and integrity"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened effeciency, reducing completion time."
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Pyro ATK",
+        "level_1": "15",
+        "level_max": "188.28"
+      },
+      {
+        "stat": "HP",
+        "level_1": "183",
+        "level_max": "3446"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "0",
+        "level_max": "0"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "345",
+        "level_max": "345"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "120",
+        "level_max": "120"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Raging Inferno",
+        "type": "Skill - Buff",
+        "description": "Enters [Retribution] state. [Retribution]: Deals Pyro Damage to nearby enemies once every 2s. If Hellfire takes damage during [Retribution], extends the state duration and deals [Puncture Retribution] Pyro Damage to nearby enemies once every 2s.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "75",
+            "level_max": "75"
+          },
+          "[Retribution] Duration": {
+            "level_1": "15s",
+            "level_max": "17.25s"
+          },
+          "[Retribution] DoT": {
+            "level_1": "24% Max HP",
+            "level_max": "60% Max HP"
+          },
+          "[Retribution] DoT Radius": {
+            "level_1": "10m",
+            "level_max": "10m"
+          },
+          "[Retribution] Duration Extension": {
+            "level_1": "1s",
+            "level_max": "1.15s"
+          },
+          "[Puncture Retribution] DMG": {
+            "level_1": "36% Max HP + 128",
+            "level_max": "117% Max HP + 371"
+          },
+          "[Puncture Retribution] DMG Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          }
+        }
+      },
+      {
+        "name": "Cage of Despair",
+        "type": "Ultimate - DMG",
+        "description": "Deals Pyro Damage to surrounding enemies and Taunts them.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "50",
+            "level_max": "50"
+          },
+          "DMG": {
+            "level_1": "67% Max HP + 110",
+            "level_max": "202% Max HP + 317"
+          },
+          "DMG Radius": {
+            "level_1": "20m",
+            "level_max": "20m"
+          },
+          "Taunt Duration": {
+            "level_1": "5s",
+            "level_max": "5s"
+          }
+        }
+      },
+      {
+        "name": "Retributive Resolve",
+        "type": "Passive",
+        "description": "Increases Max HP and continuously restores HP.",
+        "stats": {
+          "Max HP Boost": {
+            "level_1": "39%",
+            "level_max": "120%"
+          },
+          "HP Recovery per Second": {
+            "level_1": "0.3% Max HP",
+            "level_max": "0.3% Max HP"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Tabethe",
+    "slug": "tabethe",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/tabethe/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/tabethe_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Republic of Luca",
+      "birthday": "10 December",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Piscator",
+        "effect": "Skilled in Fishing"
+      },
+      {
+        "name": "Impression: Chaos",
+        "effect": "Values spontaneity and personal freedom over order"
+      },
+      {
+        "name": "Astute Mind",
+        "effect": "Adapts quickly and may obtain bonus rewards"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Hydro ATK",
+        "level_1": "17",
+        "level_max": "320"
+      },
+      {
+        "stat": "HP",
+        "level_1": "115",
+        "level_max": "1444"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "115",
+        "level_max": "1444"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "300",
+        "level_max": "300"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "150",
+        "level_max": "150"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Tabethe's Speciality",
+        "type": "Skill - Buff",
+        "description": "Commands all [Tentacles] to attack 1 time and increases their Damage Dealt. Grants self and allies a boost to Skill DMG.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "[Tentacle] DMG Boost": {
+            "level_1": "37%",
+            "level_max": "100%"
+          },
+          "Skill DMG Boost": {
+            "level_1": "16%",
+            "level_max": "52%"
+          },
+          "Skill DMG Boost Duration": {
+            "level_1": "8s",
+            "level_max": "9.2s"
+          }
+        }
+      },
+      {
+        "name": "Brawl for Justice!",
+        "type": "Ultimate - Summon",
+        "description": "Summons 9 [Tentacles] around Tabethe. [Tentacles]: Inherits 100% of Tabethe's stats, continuously dealing Hydro Damage to nearby enemies and capturing up to 2 enemies to immobilise them.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "50",
+            "level_max": "50"
+          },
+          "Summon DMG": {
+            "level_1": "53%",
+            "level_max": "170%"
+          },
+          "Summon Duration": {
+            "level_1": "12s",
+            "level_max": "13.8s"
+          }
+        }
+      },
+      {
+        "name": "Have Tricks, Will Travel!",
+        "type": "Passive",
+        "description": "Dealing CRIT Damage using a ranged weapon has a chance to summon 1 [Tentacle] near the target, which can only be triggered once per second. A maximum of 18 [Tentacles] can exist at the same time. [Tentacles]: Inherits 100% of Tabethe's stats, continuously dealing Hydro Damage to nearby enemies and capturing up to 2 enemies to immobilise them.",
+        "stats": {
+          "Effect Trigger Probability": {
+            "level_1": "6.5%",
+            "level_max": "20%"
+          },
+          "Summon DMG": {
+            "level_1": "53%",
+            "level_max": "170%"
+          },
+          "Summon Duration": {
+            "level_1": "12s",
+            "level_max": "13.8s"
+          }
+        }
+      }
+    ]
+  }
+]

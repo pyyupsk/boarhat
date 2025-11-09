@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Fina",
+    "slug": "fina",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/fina/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/fina_v1.png",
+    "profile": {
+      "gender": "Female",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "2 April",
+      "allegiance": "Unaffiliated"
+    },
+    "traits": [
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply Sensitive and emotionally Perceptive"
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by Luck - more likely to receive unexpected gains."
+      },
+      {
+        "name": "Tamer",
+        "effect": "Skilled in training Geniemons"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Lumino ATK",
+        "level_1": "22",
+        "level_max": "276.15"
+      },
+      {
+        "stat": "HP",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "315",
+        "level_max": "315"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "160",
+        "level_max": "160"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "118%",
+        "level_max": "133%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "On a Warm Afternoon",
+        "type": "Skill - DMG",
+        "description": "Deals Lumino Damage to enemies in front and reduces their Movement Speed. When [Boisterous Tea Party] is active, using this skill relocates the field to user's position, expands its range to match [Boisterous Tea Party], and increases its damage.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "15",
+            "level_max": "15"
+          },
+          "DMG": {
+            "level_1": "45.0%",
+            "level_max": "126%"
+          },
+          "DMG Radius": {
+            "level_1": "6m",
+            "level_max": "7.8m"
+          },
+          "DMG Dealt in [Boisterous Tea Party]": {
+            "level_1": "59%",
+            "level_max": "185%"
+          },
+          "Movement SPD Decrease Duration": {
+            "level_1": "14.16s",
+            "level_max": "15.96s"
+          }
+        }
+      },
+      {
+        "name": "Let the Tea Party Begin!",
+        "type": "Ultimate - Buff",
+        "description": "Creates a [Boisterous Tea Party] field in front of Fina.[Boisterous Tea Party] continously consumes Sanity and ends when Sanity drops to 0 or when this skill is held. During [Boisterous Tea Party], using the skill again will switch the field effects in order of the [Tea Party Guests] - [Nightingale], [Hound], [Unicorn], and [Butterfly]. Using the skill again outside the range of [Boisterous Tea Party] will relocate it to Fina's current location. [Boisterous Tea Party] : Generates an elemental field that corresponds to the element type of the [Tea Party Guests], with [Nightingale] for Hydro, [Hound] for Pyro, [Unicorn] for Electro, [Butterfly] for Anemo. When the field appears or its element shifts, Fina and allies gain bonus elemental damage matching the field type.While [Boisterous Tea Party] is active, the field deals elemental damage to enemies within range every 2 seconds.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "10",
+            "level_max": "10"
+          },
+          "Sanity Cost per Second": {
+            "level_1": "11",
+            "level_max": "10"
+          },
+          "[Boisterous Tea Party] Effect Radius": {
+            "level_1": "10m",
+            "level_max": "13m"
+          },
+          "DoT": {
+            "level_1": "349%",
+            "level_max": "1060%"
+          },
+          "Additional DMG": {
+            "level_1": "5.1%",
+            "level_max": "15%"
+          },
+          "Additional DMG Duration": {
+            "level_1": "14.16s",
+            "level_max": "15.96s"
+          }
+        }
+      },
+      {
+        "name": "Bad Sorcerers Hate Sunlight!",
+        "type": "Passive",
+        "description": "Grants bonus Lumino Damage that lasts throughout the battle. Each time [\"On a Warm Afternoon\"] is used, grants 6 stacks of [Taleweaver Quill]. While [Boisterous Tea Party] is active, generates 1 stack of [Taleweaver Quill] per second, up to 30 stacks. [Taleweaver Quill] : Deals additional Lumino Damage",
+        "stats": {
+          "Additional DMG Throughout the Battle": {
+            "level_1": "6%",
+            "level_max": "15%"
+          },
+          "[Taleweaever Quill] additional DMG per stack": {
+            "level_1": "0.37%",
+            "level_max": "1%"
+          },
+          "[Taleweaever Quill] Duration": {
+            "level_1": "17.7s",
+            "level_max": "19.95s"
+          }
+        }
+      }
+    ]
+  }
+]

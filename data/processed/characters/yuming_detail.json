@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Yuming",
+    "slug": "yuming",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/yuming/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/yuming_v1.png",
+    "profile": {
+      "gender": "Male",
+      "birthplace": "Huaxu",
+      "birthday": "10 November",
+      "allegiance": "Huaxu"
+    },
+    "traits": [
+      {
+        "name": "Impression: Morality",
+        "effect": "-"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "-"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "-"
+      }
+    ],
+    "base_stats": [],
+    "skills": [
+      {
+        "name": "Precipitous Thunderfall",
+        "type": "Skill - Buff",
+        "description": "Yuming leaps into the air, and the next Plunging Attack is replaced with [Starlight Descent]. Using this skill in [Xuanjiao Manifest] state grants Yuming 1 [Reverse Scale]. When the amount of [Reverse Scale] reaches its maximum, [Starlight Descent] is enhanced to [Starstorm Descent]. [Starlight Descent]: Plunges at high speed, dealing AOE Electro Damage on impact. This attack is regarded as melee weapon Plunging Attack. Using this in [Xuanjiao Manifest] state triggers [Wyrmcall Clouds]. [Reverse Scale]: Reverse Scale persists, with a maximum of 6 scales existing at the same time. The scales are removed when [Xuanjiao Manifest] state ends. [Wyrmcall Clouds]: Unleashes 5 strikes of [Raging Thunder] at the location of the target attacked by [Starlight Descent] or [Starstorm Descent], dealing AOE Electro Damage, with priority given to different target locations. [Starstorm Descent]: Consumes all [Reverse Scales] to icnrease Skill Damage for Yuming and the nearby teammate(s). Then Yuming plunges at high speed, dealing AOE Electro Damage on impact. This attack is regarded as melee weapon Plunging Attack. Using this skill in [Xuanjiao Manifest] state triggers [Wyrmcall Clouds].",
+        "stats": {}
+      },
+      {
+        "name": "Grimscales",
+        "type": "Ultimate - Buff",
+        "description": "Deals Electro Damage to enemies in front and enters [Xuanjiao Manifest] state. [Xuanjiao Manifest]: Grants immunity to Hitstun when taking damage. Xuanjiao hovers around Yuming, dealing Electro Damage to enemies on contact. Can only deal damage to the same target once every 2s. After Yuming or his nearby teammates consume Sanity to use a skill, the next time they deal Skill Damage unleashes 1 strike of [Fish-Dragon Dance] at the location of the target, dealing AOE Electro Damage. this effect can only be triggered once every 2s. Xuanjiao absorbs the damage dealt to Yuming's hp. when the absorbed damage reaches a percentage of Yuming's Max hp, the [Xuanjiao Manifest] ends.",
+        "stats": {}
+      },
+      {
+        "name": "Soaring Sky-High",
+        "type": "Passive",
+        "description": "When dealing Skill Damage, inflicts 1 stack of [Thunderous Onslaught] on the target, up to 3 stacks. [Thunderous Onslaught]: reduces Electro Resistance.",
+        "stats": {}
+      }
+    ]
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Randy",
+    "slug": "randy",
+    "url": "https://boarhat.gg/games/duet-night-abyss/character/randy/",
+    "image_url": "https://files.boarhat.gg/assets/duetnightabyss/character/randy_v1.png",
+    "profile": {
+      "gender": "Male",
+      "birthplace": "Hyperborean Empire",
+      "birthday": "14 March",
+      "allegiance": "The 13th Legion"
+    },
+    "traits": [
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in Combat"
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "Quick-witted or highly respectable in specific fields"
+      },
+      {
+        "name": "Keen Insight",
+        "effect": "Attentive to detail, increasing the chance of success"
+      }
+    ],
+    "base_stats": [
+      {
+        "stat": "Electro ATK",
+        "level_1": "14",
+        "level_max": "175.73"
+      },
+      {
+        "stat": "HP",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "Shield",
+        "level_1": "105",
+        "level_max": "1318"
+      },
+      {
+        "stat": "DEF",
+        "level_1": "510",
+        "level_max": "765"
+      },
+      {
+        "stat": "Max Sanity",
+        "level_1": "120",
+        "level_max": "120"
+      },
+      {
+        "stat": "Skill DMG",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "level_1": "100%",
+        "level_max": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "level_1": "100%",
+        "level_max": "100%"
+      },
+      {
+        "stat": "Morale",
+        "level_1": "0%",
+        "level_max": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "level_1": "0%",
+        "level_max": "0%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Legitimate Slackness",
+        "type": "Skill - DEF",
+        "description": "Deploys a [Barrier] in front of Randy and deals Electro Damage to nearby enemies. [Barrier] consumes Sanity over time, during which Randy cannot move or use any weapon and is immune to Hitstun when taking damage. [Barrier] inflicts [Overwork Grudge] on nearby enemies. When this skill is used again, the [Barrier] is retracted. [Barrier]: [Barrier] blocks frontal projectiles and absorbs their damage, and expires once it has absorbed damage equivalent to 100% of Randy's Max HP. [Overwork Grudge]: Decrease ATK, and deals Electro Damage once every 2s.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "Sanity Cost per second": {
+            "level_1": "5",
+            "level_max": "5"
+          },
+          "DMG": {
+            "level_1": "42% DEF + 17",
+            "level_max": "114% DEF + 62"
+          },
+          "Effect Radius": {
+            "level_1": "10m",
+            "level_max": "10m"
+          },
+          "[Overwork Grudge] ATK Decrease": {
+            "level_1": "15%",
+            "level_max": "15%"
+          },
+          "[Overwork Grudge] DoT": {
+            "level_1": "23% DEF",
+            "level_max": "77% DEF"
+          }
+        }
+      },
+      {
+        "name": "Special Gift",
+        "type": "Ultimate - DMG",
+        "description": "Throws 1 [Bespoke Shield] forward, causing [Impact] 1 time when it halts. [Bespoke Shield] triggers [Impact] once every 3s when it's on the field. [Impact] deals damage only against target's shield based on randy's DEF, and grants an Ultra shield based on Randy's DEF to teammate(s) within range. For targets with 0 Shield point, [Impact] paralyses them.",
+        "stats": {
+          "Sanity Cost": {
+            "level_1": "30",
+            "level_max": "30"
+          },
+          "[Bespoke Shield] Duration": {
+            "level_1": "12s",
+            "level_max": "13.8s"
+          },
+          "Paralysis Duration": {
+            "level_1": "2s",
+            "level_max": "2s"
+          },
+          "Effect Radius": {
+            "level_1": "6m",
+            "level_max": "6m"
+          },
+          "[Impact] DMG": {
+            "level_1": "119% DEF + 30",
+            "level_max": "344% DEF + 93"
+          },
+          "Ultra shield from [Impact]": {
+            "level_1": "0.37% DEF + 10",
+            "level_max": "1% DEF + 10"
+          }
+        }
+      },
+      {
+        "name": "Cavalier Composure",
+        "type": "Passive",
+        "description": "When Randy successfully grants an Ultra Shield to a teammate, applies 1 stack that increases their DEF based on Randy's DEF to them, up to 10 stacks.",
+        "stats": {
+          "DEF Boost per stack": {
+            "level_1": "0.37% DEF",
+            "level_max": "1% DEF"
+          },
+          "DEF Boost Cap per stack": {
+            "level_1": "20",
+            "level_max": "20"
+          },
+          "Duration": {
+            "level_1": "10s",
+            "level_max": "11.5s"
+          }
+        }
+      }
+    ]
+  }
+]

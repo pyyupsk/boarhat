@@ -7,6 +7,7 @@ from rich.console import Console
 from rich.table import Table
 
 from boarhat.scrapers import CharacterScraper
+from boarhat.scrapers.character_detail import CharacterDetailScraper
 
 console = Console()
 
@@ -75,6 +76,125 @@ def characters(source: str, output_dir: Path, no_cache: bool):
 
     console.print(table)
     console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
+
+
+@cli.command()
+@click.argument("character_slug")
+@click.option(
+    "--output",
+    "-o",
+    "output_dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/processed/characters"),
+    help="Output directory",
+)
+@click.option(
+    "--no-cache",
+    is_flag=True,
+    help="Force fetch from URL (ignore cache)",
+)
+def character_detail(character_slug: str, output_dir: Path, no_cache: bool):
+    """Scrape detailed character data for a specific character."""
+    cache_dir = Path("data/raw")
+
+    # Clear cache if requested
+    if no_cache:
+        cache_file = cache_dir / f"character_{character_slug}.html"
+        if cache_file.exists():
+            cache_file.unlink()
+            console.print(f"[yellow]Cleared cache: {cache_file}[/yellow]")
+
+    url = f"https://boarhat.gg/games/duet-night-abyss/character/{character_slug}/"
+    scraper = CharacterDetailScraper(url, output_dir, cache_dir, character_slug)
+    data, output_path = scraper.run()
+
+    if data:
+        char = data[0]
+        console.print(f"\n[bold green]✓ Scraped details for {char.name}[/bold green]")
+        console.print(f"  Profile: {bool(char.profile)}")
+        console.print(f"  Traits: {len(char.traits)}")
+        console.print(f"  Base Stats: {len(char.base_stats)}")
+        console.print(f"  Skills: {len(char.skills)}")
+
+    console.print(f"\n✓ Data saved to: [bold green]{output_path}[/bold green]")
+
+
+@cli.command()
+@click.option(
+    "--output",
+    "-o",
+    "output_dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/processed/characters"),
+    help="Output directory",
+)
+@click.option(
+    "--no-cache",
+    is_flag=True,
+    help="Force fetch from URLs (ignore cache)",
+)
+def all_characters(output_dir: Path, no_cache: bool):
+    """Scrape detailed data for all characters."""
+    import json
+
+    cache_dir = Path("data/raw")
+
+    # First, get the list of all characters
+    console.print("[bold yellow]Step 1: Getting character list...[/bold yellow]")
+    list_scraper = CharacterScraper(
+        "https://boarhat.gg/games/duet-night-abyss/character/",
+        Path("data/processed"),
+        cache_dir,
+    )
+    characters, _ = list_scraper.run()
+
+    console.print(f"\n[bold green]Found {len(characters)} characters[/bold green]\n")
+
+    # Scrape details for each character
+    console.print("[bold yellow]Step 2: Scraping detailed data for each character...[/bold yellow]\n")
+
+    success_count = 0
+    failed = []
+
+    for i, char in enumerate(characters, 1):
+        # Extract slug from URL
+        slug = char.url.rstrip("/").split("/")[-1]
+
+        try:
+            console.print(f"[{i}/{len(characters)}] Scraping {char.name} ({slug})...")
+
+            if no_cache:
+                cache_file = cache_dir / f"character_{slug}.html"
+                if cache_file.exists():
+                    cache_file.unlink()
+
+            url = f"https://boarhat.gg/games/duet-night-abyss/character/{slug}/"
+            scraper = CharacterDetailScraper(url, output_dir, cache_dir, slug)
+            data, _ = scraper.run()
+
+            if data:
+                success_count += 1
+                console.print(f"  [green]✓ Success[/green]")
+            else:
+                failed.append(char.name)
+                console.print(f"  [red]✗ No data[/red]")
+
+        except Exception as e:
+            failed.append(char.name)
+            console.print(f"  [red]✗ Error: {e}[/red]")
+
+    # Summary
+    console.print(f"\n[bold green]Summary[/bold green]")
+    console.print(f"  Total: {len(characters)}")
+    console.print(f"  Success: {success_count}")
+    console.print(f"  Failed: {len(failed)}")
+
+    if failed:
+        console.print(f"\n[yellow]Failed characters:[/yellow]")
+        for name in failed:
+            console.print(f"  - {name}")
+
+    console.print(f"\n✓ All character details saved to: [bold green]{output_dir}[/bold green]")
 
 
 @cli.command()

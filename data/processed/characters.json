@@ -4,15 +4,8 @@
     "element": "Umbro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Sword",
-      "Dual Pistols"
-    ],
-    "features": [
-      "DPS",
-      "Consonance Weapon",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Sword", "Dual Pistols"],
+    "features": ["DPS", "Consonance Weapon", "Weapon DMG"],
     "tier": {
       "farming": "T1",
       "boss": "T1"
@@ -25,15 +18,8 @@
     "element": "Anemo",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Whipsword",
-      "Assault Rifle"
-    ],
-    "features": [
-      "Support",
-      "Control",
-      "Heal"
-    ],
+    "proficiency": ["Whipsword", "Assault Rifle"],
+    "features": ["Support", "Control", "Heal"],
     "tier": {
       "farming": "T1",
       "boss": "T1"
@@ -46,14 +32,8 @@
     "element": "Lumino",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Sword",
-      "Assault Rifle"
-    ],
-    "features": [
-      "Support",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Sword", "Assault Rifle"],
+    "features": ["Support", "Weapon DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T0"
@@ -66,15 +46,8 @@
     "element": "Hydro",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Whipsword",
-      "Bow"
-    ],
-    "features": [
-      "Support",
-      "Sanity Recovery",
-      "Heal"
-    ],
+    "proficiency": ["Whipsword", "Bow"],
+    "features": ["Support", "Sanity Recovery", "Heal"],
     "tier": {
       "farming": "TBD",
       "boss": "TBD"
@@ -87,15 +60,8 @@
     "element": "Pyro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Greatsword",
-      "Grenade Launcher"
-    ],
-    "features": [
-      "DPS",
-      "Max HP",
-      "Skill DMG"
-    ],
+    "proficiency": ["Greatsword", "Grenade Launcher"],
+    "features": ["DPS", "Max HP", "Skill DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T2"
@@ -108,15 +74,8 @@
     "element": "Pyro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Dual Blades",
-      "Grenade Launcher"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Dual Blades", "Grenade Launcher"],
+    "features": ["DPS", "Skill DMG", "Weapon DMG"],
     "tier": {
       "farming": "TBD",
       "boss": "TBD"
@@ -143,10 +102,7 @@
       "Shotgun",
       "Bow"
     ],
-    "features": [
-      "DPS",
-      "Weapon DMG"
-    ],
+    "features": ["DPS", "Weapon DMG"],
     "tier": {
       "farming": "TBD",
       "boss": "TBD"
@@ -159,14 +115,8 @@
     "element": "Lumino",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Katana",
-      "Pistol"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG"
-    ],
+    "proficiency": ["Katana", "Pistol"],
+    "features": ["DPS", "Skill DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T0"
@@ -179,15 +129,8 @@
     "element": "Lumino",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Greatsword",
-      "Shotgun"
-    ],
-    "features": [
-      "DPS",
-      "Consonance Weapon",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Greatsword", "Shotgun"],
+    "features": ["DPS", "Consonance Weapon", "Weapon DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T0"
@@ -200,15 +143,8 @@
     "element": "Pyro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Greatsword",
-      "Dual Pistols"
-    ],
-    "features": [
-      "DPS",
-      "Consonance Weapon",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Greatsword", "Dual Pistols"],
+    "features": ["DPS", "Consonance Weapon", "Weapon DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T0"
@@ -221,14 +157,8 @@
     "element": "Pyro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Polearm",
-      "Shotgun"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG"
-    ],
+    "proficiency": ["Polearm", "Shotgun"],
+    "features": ["DPS", "Skill DMG"],
     "tier": {
       "farming": "T3",
       "boss": "T3"
@@ -241,14 +171,8 @@
     "element": "Pyro",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Polearm",
-      "Shotgun"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG"
-    ],
+    "proficiency": ["Polearm", "Shotgun"],
+    "features": ["DPS", "Skill DMG"],
     "tier": {
       "farming": "T2",
       "boss": "T2"
@@ -261,14 +185,8 @@
     "element": "Anemo",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Dual Blades",
-      "Dual Pistols"
-    ],
-    "features": [
-      "DPS",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Dual Blades", "Dual Pistols"],
+    "features": ["DPS", "Weapon DMG"],
     "tier": {
       "farming": "T1",
       "boss": "T2"
@@ -281,14 +199,8 @@
     "element": "Umbro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Greatsword",
-      "Shotgun"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG"
-    ],
+    "proficiency": ["Greatsword", "Shotgun"],
+    "features": ["DPS", "Skill DMG"],
     "tier": {
       "farming": "T1",
       "boss": "T1"
@@ -301,13 +213,8 @@
     "element": "Lumino",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Sword",
-      "Assault Rifle"
-    ],
-    "features": [
-      "Support"
-    ],
+    "proficiency": ["Sword", "Assault Rifle"],
+    "features": ["Support"],
     "tier": {
       "farming": "T1",
       "boss": "T1"
@@ -320,15 +227,8 @@
     "element": "Anemo",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Polearm",
-      "Assault Rifle"
-    ],
-    "features": [
-      "DPS",
-      "Consonance Weapon",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Polearm", "Assault Rifle"],
+    "features": ["DPS", "Consonance Weapon", "Weapon DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T0"
@@ -341,15 +241,8 @@
     "element": "Electro",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Sword",
-      "Pistol"
-    ],
-    "features": [
-      "Support",
-      "DEF",
-      "Shield"
-    ],
+    "proficiency": ["Sword", "Pistol"],
+    "features": ["Support", "DEF", "Shield"],
     "tier": {
       "farming": "T1",
       "boss": "T3"
@@ -362,15 +255,8 @@
     "element": "Hydro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Polearm",
-      "Grenade Launcher"
-    ],
-    "features": [
-      "DPS",
-      "Summon",
-      "Skill DMG"
-    ],
+    "proficiency": ["Polearm", "Grenade Launcher"],
+    "features": ["DPS", "Summon", "Skill DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T1"
@@ -383,14 +269,8 @@
     "element": "Electro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Katana",
-      "Assault Rifle"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG"
-    ],
+    "proficiency": ["Katana", "Assault Rifle"],
+    "features": ["DPS", "Skill DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T2"
@@ -403,15 +283,8 @@
     "element": "Electro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Whipsword",
-      "Pistol"
-    ],
-    "features": [
-      "DPS",
-      "Max HP",
-      "Skill DMG"
-    ],
+    "proficiency": ["Whipsword", "Pistol"],
+    "features": ["DPS", "Max HP", "Skill DMG"],
     "tier": {
       "farming": "T2",
       "boss": "T1"
@@ -424,15 +297,8 @@
     "element": "Hydro",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Sword",
-      "Bow"
-    ],
-    "features": [
-      "Support",
-      "Control",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Sword", "Bow"],
+    "features": ["Support", "Control", "Weapon DMG"],
     "tier": {
       "farming": "T0",
       "boss": "T1"
@@ -445,15 +311,8 @@
     "element": "Anemo",
     "role": "Support",
     "rarity": "SR",
-    "proficiency": [
-      "Polearm",
-      "Bow"
-    ],
-    "features": [
-      "Support",
-      "Max HP",
-      "Heal"
-    ],
+    "proficiency": ["Polearm", "Bow"],
+    "features": ["Support", "Max HP", "Heal"],
     "tier": {
       "farming": "T0",
       "boss": "T0"
@@ -466,14 +325,8 @@
     "element": "Pyro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Sword",
-      "Shotgun"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG"
-    ],
+    "proficiency": ["Sword", "Shotgun"],
+    "features": ["DPS", "Skill DMG"],
     "tier": {
       "farming": "T2",
       "boss": "T2"
@@ -486,15 +339,8 @@
     "element": "Electro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Polearm",
-      "Assault Rifle"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG",
-      "Weapon DMG"
-    ],
+    "proficiency": ["Polearm", "Assault Rifle"],
+    "features": ["DPS", "Skill DMG", "Weapon DMG"],
     "tier": {
       "farming": "TBD",
       "boss": "TBD"
@@ -507,14 +353,8 @@
     "element": "Electro",
     "role": "DPS",
     "rarity": "SSR",
-    "proficiency": [
-      "Greatsword",
-      "Dual Pistols"
-    ],
-    "features": [
-      "DPS",
-      "Skill DMG"
-    ],
+    "proficiency": ["Greatsword", "Dual Pistols"],
+    "features": ["DPS", "Skill DMG"],
     "tier": {
       "farming": "TBD",
       "boss": "TBD"
